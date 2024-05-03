@@ -1,0 +1,13 @@
+filename = 'pamhc2foodcore-1.20.4-1.0.5.jar'
+name = "Pam's HarvestCraft 2 - Food Core"
+side = 'both'
+
+[download]
+hash = '7fafd6a0c6692142b8dfb249341659f463fc9cba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5097798
+project-id = 372534

@@ -1,0 +1,13 @@
+filename = 'baubley-heart-canisters-1.20.1-1.0.5.jar'
+name = 'Baubley Heart Canisters'
+side = 'both'
+
+[download]
+hash = '43c18dd492cf5c37520d58cdc36c2e74d976c77e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4786762
+project-id = 282947

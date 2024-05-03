@@ -1,0 +1,36 @@
+# IDE
+.idea/
+.vscode/
+
+# include all folder in .minecraft
+*/
+
+# include orther file in .minecraft
+emi.json
+icon.png
+options.txt
+patchouli_data.json
+rhino.local.properties
+usercache.json
+usernamecache.json
+GT.jar
+GT.json
+hmclversion.cfg
+log4j2.xml
+modpack.cfg
+
+# include configs
+!config/
+!config/**
+
+!kubejs/
+!kubejs/**
+
+!.github/
+!.github/**
+
+!mods/
+!mods/**
+
+*.bak
+*.log
