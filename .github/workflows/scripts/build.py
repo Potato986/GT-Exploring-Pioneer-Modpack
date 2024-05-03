@@ -20,7 +20,7 @@ def main():
             "version": "1.20.1",
             'modLoaders': [
                 {
-                    'id': 'neoforge-47.1.81',
+                    'id': 'forge-47.2.0',
                     'primary': True
                 }
             ]
@@ -65,29 +65,7 @@ def main():
             continue
         shutil.copy(mod_path / mod, f'build/overrides/mods/{mod}')
 
-    # with ZipFile(f'{manifest["name"]}-{manifest["version"]}.zip', 'w') as z:
-    #     # z.mkdir('overrides')
-    #     for mod in mod_list:
-    #         if not mod.endswith('.jar'):
-    #             continue
-    #         z.write(mod_path / mod, arcname=f'overrides/mods/{mod}')
-    #         print('Added: ' + str(mod_path / mod))
-    #     z.write('manifest.json')
-    #     print('Added: manifest.json')
-    #
-    #     for dir_path, dir_names, filenames in os.walk('config'):
-    #         fpath = dir_path or ''
-    #         for filename in filenames:
-    #             z.write(f'{fpath}\\{filename}', arcname=f'overrides\\{fpath}\\{filename}')
-    #             print(f'Added: {fpath}\\{filename}')
-    #
-    #     for dir_path, dir_names, filenames in os.walk('kubejs'):
-    #         fpath = dir_path or ''
-    #         if 'probe' in fpath:
-    #             continue
-    #         for filename in filenames:
-    #             z.write(f'{fpath}\\{filename}', arcname=f'overrides\\{fpath}\\{filename}')
-    #             print(f'Added: {fpath}\\{filename}')
+    print(f'name={pack_info["name"]}-{pack_info["version"]}')
 
 
 if __name__ == '__main__':

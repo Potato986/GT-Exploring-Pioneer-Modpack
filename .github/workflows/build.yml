@@ -20,10 +20,11 @@ jobs:
         run: pip install toml
 
       - name: Build pack
-        run: python .github/workflows/scripts/build.py
+        id: build
+        run: python .github/workflows/scripts/build.py >> "$GITHUB_OUTPUT"
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3.1.1
         with:
-          name: Artifact
+          name: ${{ steps.build.outputs.name }}
           path: build/**
