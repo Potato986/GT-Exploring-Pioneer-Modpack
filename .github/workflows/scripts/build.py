@@ -65,7 +65,7 @@ def main():
             continue
         shutil.copy(mod_path / mod, f'build/overrides/mods/{mod}')
 
-    print(f'name={pack_info["name"]}-{pack_info["version"]}')
+    print(f'name={manifest["name"]}-{manifest["version"]}')
 
 
 if __name__ == '__main__':
