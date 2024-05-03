@@ -10,7 +10,7 @@ index_path = mod_path / '.index'
 
 
 def main():
-    build_number = os.environ.get('BUILD_NUM', None)
+    build_number = os.environ.get('GITHUB_RUN_NUMBER', None)
     with open('modpack_info.json', encoding='utf-8') as f:
         pack_info = json.load(f)
     manifest = {
