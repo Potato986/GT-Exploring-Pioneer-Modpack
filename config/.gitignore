@@ -1,0 +1,15 @@
+ModernUI/
+jade/
+jei/
+
+emi.css
+ias.json
+MouseTweaks.cfg
+oculus.properties
+embeddium*
+
+*-client.toml
+Mekanism/client.toml
+ferritecore-mixin.toml
+
+!aether-client.toml
