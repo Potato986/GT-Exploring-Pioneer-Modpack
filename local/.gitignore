@@ -1,0 +1,7 @@
+ftbchunks/**
+ftbquests/**
+kubejs/**
+ftblibrary-client.snbt
+ftbultimine-client.snbt
+
+!ftbchunks/client-config.snbt

@@ -32,5 +32,8 @@ modpack.cfg
 !mods/
 !mods/**
 
+!local
+!local/**
+
 *.bak
 *.log
