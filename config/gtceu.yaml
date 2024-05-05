@@ -18,12 +18,12 @@ recipes:
 
   # Whether to nerf Wood crafting to 2 Planks from 1 Log, and 2 Sticks from 2 Planks.
   # Default: false
-  nerfWoodCrafting: false
+  nerfWoodCrafting: true
 
   # Whether to make Wood related recipes harder.
   # Excludes sticks and planks.
   # Default: false
-  hardWoodRecipes: false
+  hardWoodRecipes: true
 
   # Recipes for Buckets, Cauldrons, Hoppers, and Iron Bars require Iron Plates, Rods, and more.
   # Default: true
@@ -51,7 +51,7 @@ recipes:
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: false
-  hardAdvancedIronRecipes: false
+  hardAdvancedIronRecipes: true
 
   # Whether to make coloring blocks like Concrete or Glass harder.
   # Default: false
@@ -67,7 +67,7 @@ recipes:
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
-  removeVanillaBlockRecipes: false
+  removeVanillaBlockRecipes: true
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true
@@ -79,7 +79,7 @@ recipes:
 
   # Whether to nerf the output amounts of the first circuit in a set to 1 (from 2) and SoC to 2 (from 4).
   # Default: false
-  harderCircuitRecipes: false
+  harderCircuitRecipes: true
 
 worldgen:
   # Rubber Tree spawn chance (% per chunk)
@@ -93,7 +93,7 @@ worldgen:
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
-  sandOresFall: false
+  sandOresFall: true
 
   # Whether to increase number of rolls for dungeon chests. Increases dungeon loot drastically.
   # Default: true
@@ -111,7 +111,7 @@ worldgen:
 
     # The maximum random offset (in blocks) from the grid for generating an ore vein.
     # Default: 12
-    oreVeinRandomOffset: 12
+    oreVeinRandomOffset: 6
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
@@ -127,7 +127,7 @@ worldgen:
 
     # Make bedrock ore/fluid veins infinite?
     # Default: false
-    infiniteBedrockOresFluids: false
+    infiniteBedrockOresFluids: true
 
     # Sets the maximum number of chunks that may be cached for ore vein generation.
     # Higher values may improve world generation performance, but at the cost of more RAM usage.
@@ -145,7 +145,7 @@ machines:
   # If true, progress will reset.
   # If false, progress will decrease to zero with 2x speed
   # Default: false
-  recipeProgressLowEnergy: false
+  recipeProgressLowEnergy: true
 
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: false
@@ -216,7 +216,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: false
+  doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
@@ -229,7 +229,7 @@ machines:
 
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false
-  enableTieredCasings: false
+  enableTieredCasings: true
 
   # Minimum distance between Long Distance Item Pipe Endpoints
   # Default: 50
@@ -244,7 +244,7 @@ machines:
   # This is intended for modpack developers only, and is not playable without custom tweaks or addons.
   # Other mods can override this to true, regardless of the config file.
   # Default: false
-  highTierContent: false
+  highTierContent: true
 
 client:
   # Whether or not to enable Emissive Textures for GregTech Machines.

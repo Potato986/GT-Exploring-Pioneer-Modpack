@@ -2,6 +2,15 @@
 
 仓库包含了所有配置文件
 
+### 如何进行开发
+
+整合包基于 git 进行版本管理，需要下载并安装 [git](https://git-scm.com/)。
+
+- 首先去 action 下载最新构建，拖入启动器导入。
+- 打开 `.minecraft` 文件夹
+- 使用命令行输入 `git clone https://github.com/GregTech-Exploring-Pioneer/GT-Exploring-Pioneer-Modpack.git temp`
+- 将 `temp` 文件内的所有东西移动到 `.minecraft` 文件夹内即可
+
 ### 附属大致流程
 
 | GT 阶段 | 存储 & 物流        | 科技      | 魔法   | 冒险       | 实用 & QOL   |
