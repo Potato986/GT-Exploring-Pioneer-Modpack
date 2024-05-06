@@ -1,0 +1,13 @@
+filename = 'world_preview-forge-1.20.1-1.2.2.jar'
+name = 'World Preview'
+side = 'both'
+
+[download]
+hash = 'f1d77cc2614161591980c806cc29daceee447ca1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5228248
+project-id = 891429

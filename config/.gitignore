@@ -1,6 +1,11 @@
 ModernUI/
 jade/
 jei/
+sound_physics_remastered/
+world_preview/
+
+ae2/client.json
+travelanchors/client.json5
 
 emi.css
 ias.json
@@ -15,3 +20,4 @@ Mekanism/client.toml
 ferritecore-mixin.toml
 
 !aether-client.toml
+!pickupnotifier/pickupnotifier-client.toml

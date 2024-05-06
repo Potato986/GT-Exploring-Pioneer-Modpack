@@ -38,10 +38,19 @@ def main():
     files = [index_path / file for file in files]
     for file in files:
         info = toml.load(file)
-        if 'curseforge' in info['update']:
+        if info['download']['mode'] == 'metadata:curseforge':
             manifest['files'].append({
+                'fileName': info['filename'],
                 'fileID': info['update']['curseforge']['file-id'],
                 'projectID': info['update']['curseforge']['project-id'],
+                'required': True
+            })
+        elif info['download']['mode'] == 'url':
+            manifest['files'].append({
+                'fileName': info['filename'],
+                'fileID': 0,
+                'projectID': 0,
+                'url': info['download']['url'],
                 'required': True
             })
 
