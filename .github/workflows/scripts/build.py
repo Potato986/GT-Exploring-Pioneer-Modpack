@@ -12,8 +12,6 @@ index_path = mod_path / '.index'
 
 def download_file(filename, url):
     req = requests.get(url, stream=True)
-    size = req.headers.get('content-length')
-    print("Downloading:", filename, "size:", size)
     os.makedirs('build/overrides/mods', exist_ok=True)
     with open(f'build/overrides/mods/{filename}', 'wb') as f:
         for chunk in req.iter_content(chunk_size=1024):
