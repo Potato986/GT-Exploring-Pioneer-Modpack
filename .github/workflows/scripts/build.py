@@ -3,10 +3,21 @@ import os
 import shutil
 from pathlib import Path
 
+import requests
 import toml
 
 mod_path = Path() / 'mods'
 index_path = mod_path / '.index'
+
+
+def download_file(filename, url):
+    req = requests.get(url, stream=True)
+    size = req.headers.get('content-length')
+    print("Downloading:", filename, "size:", size)
+    os.makedirs('build/overrides/mods', exist_ok=True)
+    with open(f'build/overrides/mods/{filename}', 'wb') as f:
+        for chunk in req.iter_content(chunk_size=1024):
+            f.write(chunk)
 
 
 def main():
@@ -32,7 +43,12 @@ def main():
         'overrides': 'overrides',
     }
 
-    mod_list = os.listdir(mod_path)
+    if os.path.exists('build'):
+        shutil.rmtree('build')
+
+    os.mkdir('build')
+    os.mkdir('build/overrides')
+    os.mkdir('build/overrides/mods')
 
     files = list(filter(lambda x: x.endswith('.toml'), os.listdir(index_path)))
     files = [index_path / file for file in files]
@@ -40,39 +56,18 @@ def main():
         info = toml.load(file)
         if info['download']['mode'] == 'metadata:curseforge':
             manifest['files'].append({
-                'fileName': info['filename'],
                 'fileID': info['update']['curseforge']['file-id'],
                 'projectID': info['update']['curseforge']['project-id'],
                 'required': True
             })
         elif info['download']['mode'] == 'url':
-            manifest['files'].append({
-                'fileName': info['filename'],
-                'fileID': 0,
-                'projectID': 0,
-                'url': info['download']['url'],
-                'required': True
-            })
-
-    if os.path.exists('build'):
-        shutil.rmtree('build')
-
-    os.mkdir('build')
-    os.mkdir('build/overrides')
+            download_file(info['filename'], info['download']['url'])
 
     with open('build/manifest.json', 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=4, ensure_ascii=False)
 
     shutil.copytree('config', 'build/overrides/config')
     shutil.copytree('kubejs', 'build/overrides/kubejs')
-
-    if len(mod_list) != 0:
-        os.mkdir('build/overrides/mods')
-
-    for mod in mod_list:
-        if not mod.endswith('.jar'):
-            continue
-        shutil.copy(mod_path / mod, f'build/overrides/mods/{mod}')
 
     print(f'name={manifest["name"]}-{manifest["version"]}')
 
