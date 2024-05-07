@@ -1,13 +1,13 @@
-filename = 'bigger_ae2-1.20.1-1.1.0.jar'
+filename = 'bigger_ae2-1.20.1-1.2.2.jar'
 name = 'Bigger AE2'
 side = 'both'
 
 [download]
-hash = '0b02d5e4279dea6e0dbf545b6ae838fd6233885c'
+hash = '8e2378ebab08940d562680044943ea5c836a37e1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5318254
+file-id = 5324014
 project-id = 1013772
