@@ -1,0 +1,72 @@
+{
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 64
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/stone",
+                "tetra:stone/diorite",
+                "tetra:stone/andesite",
+                "tetra:stone/granite",
+                "tetra:stone/flint"
+            ],
+            "toolFactor": 0,
+            "moduleKey": "double/basic_hammer",
+            "moduleVariant": "basic_hammer/"
+        },
+        {
+            "materials": [
+                "tetra:metal/iron",
+                "tetra:metal/copper"
+            ],
+            "countFactor": 2,
+            "moduleKey": "double/basic_hammer",
+            "moduleVariant": "basic_hammer/"
+        },
+        {
+            "materials": [
+                "tetra:stone/blackstone"
+            ],
+            "moduleKey": "double/basic_hammer",
+            "moduleVariant": "basic_hammer/"
+        },
+        {
+            "material": {
+                "tag": "forge:obsidian"
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:netherite"
+            },
+            "moduleKey": "double/basic_hammer",
+            "moduleVariant": "basic_hammer/obsidian",
+            "improvements": {
+                "arrested": 0
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "minecraft:netherite_ingot"
+                ],
+                "count": 2
+            },
+            "requiredTools": {
+                "hammer_dig": "tetra:maxed_forge_hammer"
+            },
+            "moduleKey": "double/basic_hammer",
+            "moduleVariant": "basic_hammer/netherite"
+        }
+    ]
+}
