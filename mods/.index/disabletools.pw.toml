@@ -1,0 +1,13 @@
+filename = 'disable_tools-1.20.1-1.2.1.jar'
+name = 'DisableTools'
+side = 'both'
+
+[download]
+hash = '5873ac31f419a344dc65f72c8273d8b049131381'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5326896
+project-id = 1015339

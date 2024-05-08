@@ -1,0 +1,13 @@
+filename = 'moredelight-1.1.2-1.20.1-forge.jar'
+name = 'More Delight (Forge)'
+side = 'both'
+
+[download]
+hash = '4c457914b3b07d5e9c26d4c16b0b98e6de308093'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5275041
+project-id = 977515
