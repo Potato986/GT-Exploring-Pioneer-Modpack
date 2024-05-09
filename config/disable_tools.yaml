@@ -6,6 +6,13 @@ tools:
   - minecraft:.*_hoe
   - minecraft:.*_pickaxe
   - minecraft:.*_shovel
+  - gtceu:.*_pickaxe
+  - mekanismtools:.*_pickaxe
+  - mekanismtools:.*_paxel
+  - ae2:.*_pickaxe
+  - botania:.*_pickaxe
+  - naturesaura:.*_pickaxe
+  - aether:.*_pickaxe
 
 # The text will show on disabled tool's Tooltip
 # Support Translation Text
