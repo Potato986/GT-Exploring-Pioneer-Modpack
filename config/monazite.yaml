@@ -32,6 +32,10 @@ oreVeinDisplay:
   # Default: true
   useNHDimensionDisplay: true
 
+  # If true, the dimension display will show dimension tier.
+  # Default: true
+  showDimensionTier: true
+
   # To add custom display dimensions.
   dimensions:
 
