@@ -16,3 +16,7 @@
     # Allowed range: -1 ~ 2147483647 - Default: -1
     maxDistance = 16
 
+    # Whether to use whitelist, if true, use invalid_targets block tag as whitelist.
+    # Allowed values: true, false - Default: false
+    useWhitelist = false
+

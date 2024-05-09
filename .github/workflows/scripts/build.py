@@ -61,6 +61,9 @@ def main():
         elif info['download']['mode'] == 'url':
             download_file(info['filename'], info['download']['url'])
 
+    for files in pack_info[files]:
+        download_file(files['filename'], files['url'])
+
     with open('build/manifest.json', 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=4, ensure_ascii=False)
 
