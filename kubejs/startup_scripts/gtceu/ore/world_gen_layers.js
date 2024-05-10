@@ -23,6 +23,11 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
     event.create('tf')
         .targets('minecraft:stone')
         .dimensions('twilightforest:twilight_forest')
+
+    event.create('aether')
+        .targets('aether:holystone')
+        .dimensions('aether:the_aether')
+
     event.create('all')
         .targets(
             '#minecraft:stone_ore_replaceables',
@@ -32,7 +37,8 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
             'ad_astra:venus_stone', 
             'ad_astra:mars_stone', 
             'ad_astra:mercury_stone', 
-            'ad_astra:glacio_stone'
+            'ad_astra:glacio_stone',
+            'aether:holystone'
         )
         .dimensions(
             'minecraft:overworld',
@@ -43,6 +49,7 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
             'ad_astra:venus',
             'ad_astra:mars',
             'ad_astra:mercury',
-            'ad_astra:glacio'
+            'ad_astra:glacio',
+            'aether:the_aether'
         )
 })

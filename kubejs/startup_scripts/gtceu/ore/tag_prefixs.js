@@ -33,4 +33,11 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
         .unificationEnabled(true)
         .materialIconType(GTMaterialIconType.ore)
         .generationCondition(ItemGenerationCondition.hasOreProperty)
+
+    event.create('holystone', 'ore')
+        .stateSupplier(() => Block.getBlock('aether:holystone').defaultBlockState())
+        .baseModelLocation('aether:block/holystone')
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
 })
