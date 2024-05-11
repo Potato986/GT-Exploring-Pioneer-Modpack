@@ -16,5 +16,7 @@
     "tagprefix.mars_stone": "Mars Stone %s Ore",
     "tagprefix.mercury_stone": "Mercury Stone %s Ore",
     "tagprefix.glacio_stone": "Glacio Stone %s Ore",
-    "tagprefix.holystone": "Holy Stone %s Ore"
+    "tagprefix.holystone": "Holy Stone %s Ore",
+
+    "Material.gtceu.steel_leaf": "Steel Leaf"
 }
