@@ -1,5 +1,15 @@
 {
+    "item.kubejs.twilight_crystal": "Twilight Crystal",
+    
     "block.gtceu.large_primitive_blast_furnace": "Large Primitive Blast Furnace",
+    "block.monazite.dimension_display.twilightforest.twilight_forest": "Twilight Forest",
+    "block.monazite.dimension_display.ad_astra.moon": "Moon",
+    "block.monazite.dimension_display.ad_astra.venus": "Venus",
+    "block.monazite.dimension_display.ad_astra.mars": "Mars",
+    "block.monazite.dimension_display.ad_astra.mercury": "Mercury",
+    "block.monazite.dimension_display.ad_astra.glacio": "Glacio",
+
+    "tooltip.kubejs.twilight_crystal": "This item is needed to activate the Twilight Portal",
 
     "tagprefix.moon_stone": "Moon Stone %s Ore",
     "tagprefix.venus_stone": "Venus Stone %s Ore",
