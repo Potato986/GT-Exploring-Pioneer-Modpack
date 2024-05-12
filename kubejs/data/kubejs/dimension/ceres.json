@@ -1,0 +1,11 @@
+{
+  "type": "kubejs:ceres",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "kubejs:ceres",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "kubejs:ceres_wastelands"
+    }
+  }
+}
