@@ -18,6 +18,7 @@ xaero*
 *-client.toml
 Mekanism/client.toml
 ferritecore-mixin.toml
+solonion-client.json
 
 !aether-client.toml
 !pickupnotifier/pickupnotifier-client.toml

@@ -6,7 +6,7 @@ recipes:
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
-  disableManualCompression: true
+  disableManualCompression: false
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: false
@@ -67,7 +67,7 @@ recipes:
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
-  removeVanillaBlockRecipes: true
+  removeVanillaBlockRecipes: false
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true
@@ -79,7 +79,7 @@ recipes:
 
   # Whether to nerf the output amounts of the first circuit in a set to 1 (from 2) and SoC to 2 (from 4).
   # Default: false
-  harderCircuitRecipes: true
+  harderCircuitRecipes: false
 
 worldgen:
   # Rubber Tree spawn chance (% per chunk)
