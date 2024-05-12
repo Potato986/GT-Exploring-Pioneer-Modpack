@@ -8,6 +8,10 @@
     "block.monazite.dimension_display.ad_astra.mars": "Mars",
     "block.monazite.dimension_display.ad_astra.mercury": "Mercury",
     "block.monazite.dimension_display.ad_astra.glacio": "Glacio",
+    "block.monazite.dimension_display.kubejs.deimos": "Deimos",
+
+    "block.kubejs.deimos_surface": "Deimos Surface",
+    "block.kubejs.deimos_stone": "Deimos Stone",
 
     "tooltip.kubejs.twilight_crystal": "This item is needed to activate the Twilight Portal",
 
@@ -18,5 +22,10 @@
     "tagprefix.glacio_stone": "Glacio Stone %s Ore",
     "tagprefix.holystone": "Holy Stone %s Ore",
 
-    "Material.gtceu.steel_leaf": "Steel Leaf"
+    "material.gtceu.steel_leaf": "Steel Leaf",
+
+    "biome.kubejs.deimos_wastelands": "Deimos Wastelands",
+
+    "planet.kubejs.deimos": "Deimos",
+    "planet.kubejs.deimos_orbit": "Deimos Orbit"
 }

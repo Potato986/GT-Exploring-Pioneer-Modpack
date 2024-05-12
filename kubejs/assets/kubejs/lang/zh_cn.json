@@ -8,6 +8,10 @@
     "block.monazite.dimension_display.ad_astra.mars": "火星",
     "block.monazite.dimension_display.ad_astra.mercury": "水星",
     "block.monazite.dimension_display.ad_astra.glacio": "霜原星",
+    "block.monazite.dimension_display.kubejs.deimos": "火卫二",
+
+    "block.kubejs.deimos_surface": "火卫二地表岩石",
+    "block.kubejs.deimos_stone": "火卫二地底岩石",
 
     "tooltip.kubejs.twilight_crystal": "需要用此物品来激活暮色传送门",
 
@@ -18,5 +22,10 @@
     "tagprefix.glacio_stone": "霜原石%s矿石",
     "tagprefix.holystone": "圣石%s矿石",
 
-    "material.gtceu.steel_leaf": "钢叶"
+    "material.gtceu.steel_leaf": "钢叶",
+
+    "biome.kubejs.deimos_wastelands": "火卫二荒地",
+
+    "planet.kubejs.deimos": "火卫二",
+    "planet.kubejs.deimos_orbit": "火卫二轨道"
 }

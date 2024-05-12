@@ -1,0 +1,11 @@
+{
+  "type": "kubejs:deimos",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "kubejs:deimos",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "kubejs:deimos_wastelands"
+    }
+  }
+}
