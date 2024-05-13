@@ -30,8 +30,12 @@
     "biome.kubejs.deimos_wastelands": "火卫二荒地",
     "biome.kubejs.ceres_wastelands": "谷神星荒地",
 
+    "solar_system.kubejs.rose_128": "罗斯128",
+
     "planet.kubejs.deimos": "火卫二",
     "planet.kubejs.deimos_orbit": "火卫二轨道",
     "planet.kubejs.ceres": "谷神星",
-    "planet.kubejs.ceres_orbit": "谷神星轨道"
+    "planet.kubejs.ceres_orbit": "谷神星轨道",
+    "planet.kubejs.rose_128b": "罗斯128b",
+    "planet.kubejs.rose_128b_orbit": "罗斯128b轨道"
 }

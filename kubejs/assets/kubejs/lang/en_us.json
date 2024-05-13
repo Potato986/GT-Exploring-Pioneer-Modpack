@@ -30,8 +30,12 @@
     "biome.kubejs.deimos_wastelands": "Deimos Wastelands",
     "biome.kubejs.ceres_wastelands": "Ceres Wastelands",
 
+    "solar_system.kubejs.rose_128": "Rose 128",
+
     "planet.kubejs.deimos": "Deimos",
     "planet.kubejs.deimos_orbit": "Deimos Orbit",
     "planet.kubejs.ceres": "Ceres",
-    "planet.kubejs.ceres_orbit": "Ceres Orbit"
+    "planet.kubejs.ceres_orbit": "Ceres Orbit",
+    "planet.kubejs.rose_128b": "Rose 128b",
+    "planet.kubejs.rose_128b_orbit": "Rose 128b Orbit"
 }
