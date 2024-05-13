@@ -69,6 +69,7 @@ def main():
 
     shutil.copytree('config', 'build/overrides/config')
     shutil.copytree('kubejs', 'build/overrides/kubejs')
+    shutil.copytree('local', 'build/overrides/local')
 
     print(f'name={manifest["name"]}-{manifest["version"]}')
 
