@@ -1,33 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
-    event.create('ad')
-        .targets(
-            'ad_astra:moon_stone', 
-            'ad_astra:venus_stone', 
-            'ad_astra:mars_stone', 
-            'ad_astra:mercury_stone', 
-            'ad_astra:glacio_stone', 
-            'minecraft:stone',
-            'minecraft:deepslate', 
-            'minecraft:blackstone', 
-            'minecraft:basalt', 
-            'minecraft:soul_soil'
-        )
-        .dimensions(
-            'ad_astra:moon',
-            'ad_astra:venus',
-            'ad_astra:mars',
-            'ad_astra:mercury',
-            'ad_astra:glacio'
-        )
-    
-    event.create('tf')
-        .targets('minecraft:stone')
-        .dimensions('twilightforest:twilight_forest')
-
-    event.create('aether')
-        .targets('aether:holystone')
-        .dimensions('aether:the_aether')
-
     event.create('all')
         .targets(
             '#minecraft:stone_ore_replaceables',
@@ -38,7 +9,11 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
             'ad_astra:mars_stone', 
             'ad_astra:mercury_stone', 
             'ad_astra:glacio_stone',
-            'aether:holystone'
+            'aether:holystone',
+            'kubejs:deimos_stone',
+            'kubejs:ceres_stone',
+            'kubejs:ganymede_stone',
+            'kubejs:io_stone'
         )
         .dimensions(
             'minecraft:overworld',
@@ -50,6 +25,11 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
             'ad_astra:mars',
             'ad_astra:mercury',
             'ad_astra:glacio',
-            'aether:the_aether'
+            'aether:the_aether',
+            'kubejs:deimos',
+            'kubejs:ceres',
+            'kubejs:ganymede',
+            'kubejs:io',
+            'kubejs:rose_128b'
         )
 })
