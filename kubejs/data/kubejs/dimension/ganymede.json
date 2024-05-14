@@ -1,8 +1,8 @@
 {
-  "type": "kubejs:ceres",
+  "type": "kubejs:ganymede",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "kubejs:ceres",
+    "settings": "kubejs:ganymede",
     "biome_source": {
       "type": "minecraft:fixed",
       "biome": "kubejs:space_wastelands"

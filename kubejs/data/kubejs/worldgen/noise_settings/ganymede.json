@@ -5,7 +5,7 @@
   "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "kubejs:deimos_stone"
+    "Name": "kubejs:ganymede_stone"
   },
   "default_fluid": {
     "Name": "minecraft:air"
@@ -14,7 +14,7 @@
     "min_y": -64,
     "height": 384,
     "size_horizontal": 1,
-    "size_vertical": 2.5
+    "size_vertical": 1.5
   },
   "noise_router": {
     "barrier": {
@@ -321,7 +321,7 @@
           "then_run": {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "kubejs:deimos_surface"
+              "Name": "kubejs:ganymede_surface"
             }
           }
         }

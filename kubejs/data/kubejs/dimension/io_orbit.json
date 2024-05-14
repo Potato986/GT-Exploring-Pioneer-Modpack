@@ -1,11 +1,11 @@
 {
-  "type": "kubejs:ceres",
+  "type": "kubejs:io_orbit",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "kubejs:ceres",
+    "settings": "ad_astra:orbit",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "kubejs:space_wastelands"
+      "biome": "ad_astra:orbit"
     }
   }
 }

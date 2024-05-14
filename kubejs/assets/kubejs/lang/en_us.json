@@ -11,11 +11,18 @@
     "block.monazite.dimension_display.kubejs.ceres": "Ceres",
     "block.monazite.dimension_display.kubejs.deimos": "Deimos",
     "block.monazite.dimension_display.kubejs.rose_128b": "Rose 128b",
+    "block.monazite.dimension_display.kubejs.ganymede": "Ganymede",
+    "block.monazite.dimension_display.kubejs.io": "IO",
 
     "block.kubejs.deimos_surface": "Deimos Surface",
     "block.kubejs.deimos_stone": "Deimos Stone",
     "block.kubejs.ceres_surface": "Ceres Surface",
     "block.kubejs.ceres_stone": "Ceres Stone",
+    "block.kubejs.ganymede_surface": "Ganymede Surface",
+    "block.kubejs.ganymede_stone": "Ganymede Stone",
+    "block.kubejs.io_surface": "IO Surface",
+    "block.kubejs.io_ash": "IO Ash",
+    "block.kubejs.io_stone": "IO Stone",
 
     "tooltip.kubejs.twilight_crystal": "This item is needed to activate the Twilight Portal",
 
@@ -28,8 +35,9 @@
 
     "material.gtceu.steel_leaf": "Steel Leaf",
 
-    "biome.kubejs.deimos_wastelands": "Deimos Wastelands",
-    "biome.kubejs.ceres_wastelands": "Ceres Wastelands",
+    "biome.kubejs.space_wastelands": "Space Wastelands",
+    "biome.kubejs.io": "IO",
+    "biome.kubejs.io_ash": "IO Ash",
 
     "solar_system.kubejs.rose_128": "Rose 128",
 
@@ -38,5 +46,9 @@
     "planet.kubejs.ceres": "Ceres",
     "planet.kubejs.ceres_orbit": "Ceres Orbit",
     "planet.kubejs.rose_128b": "Rose 128b",
-    "planet.kubejs.rose_128b_orbit": "Rose 128b Orbit"
+    "planet.kubejs.rose_128b_orbit": "Rose 128b Orbit",
+    "planet.kubejs.ganymede": "Ganymede",
+    "planet.kubejs.ganymede_orbit": "Ganymede Orbit",
+    "planet.kubejs.io": "IO",
+    "planet.kubejs.io_orbit": "IO Orbit"
 }

@@ -5,7 +5,7 @@
     "settings": "kubejs:deimos",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "kubejs:deimos_wastelands"
+      "biome": "kubejs:space_wastelands"
     }
   }
 }
