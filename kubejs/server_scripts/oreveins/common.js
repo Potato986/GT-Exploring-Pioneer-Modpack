@@ -45,18 +45,15 @@ GTCEuServerEvents.oreVeins(event => {
         vein.weight(50)
         vein.clusterSize(45)
         vein.density(0.25)
-
         vein.layer('all')
         vein.dimensions(OVERWORLD, TWILIGHT_FOREST, DEIMOS, CERES)
         vein.heightRangeUniform(-20, 50)
-
         vein.dikeVeinGenerator(generator => generator
             .withBlock(GTMaterials.Lazurite, 3, 20, 50)
             .withBlock(GTMaterials.Sodalite, 2, -5, 40)
             .withBlock(GTMaterials.Lapis, 2, -20, 20)
             .withBlock(GTMaterials.Calcite, 1, -20, 50)
         )
-
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.Lapis)
             .placement('above')
@@ -89,5 +86,37 @@ GTCEuServerEvents.oreVeins(event => {
             .placement("above")
         )
     })
-    // event.add('kubejs:overworld/iron', global.iron('stone', 'minecraft:overworld', 120, 10, 50))
+    event.add('kubejs:vermiculite', vein => {
+        vein.weight(80)
+        vein.clusterSize(35)
+        vein.density(0.75)
+        vein.layer('all')
+        vein.dimensions(OVERWORLD)
+        vein.heightRangeUniform(80, 200)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.Brass, 3, 80, 200)
+            .withBlock(GTMaterials.get('vermiculite'), 2, 80, 200)
+            .withBlock(GTMaterials.Cassiterite, 2, 80, 200)
+            .withBlock(GTMaterials.Alunite, 1, 80, 200)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('vermiculite'))
+            .placement("above")
+        )
+    })
+    event.add('kubejs:oil_sand', vein => {
+        vein.weight(40)
+        vein.clusterSize(40)
+        vein.density(0.6)
+        vein.layer('all')
+        vein.dimensions(OVERWORLD)
+        vein.heightRangeUniform(20, 80)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.Oilsands, 1, 20, 80)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Oilsands)
+            .placement("above")
+        )
+    })
 })
