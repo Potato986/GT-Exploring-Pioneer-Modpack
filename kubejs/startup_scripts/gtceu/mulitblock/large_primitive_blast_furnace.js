@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     .rotationState(RotationState.NON_Y_AXIS)
     .appearanceBlock(GTBlocks.CASING_PRIMITIVE_BRICKS)
     .recipeType(GTRecipeTypes.PRIMITIVE_BLAST_FURNACE_RECIPES)
-    .recipeModifier((machine, recipe) => GTRecipeModifiers.accurateParallel(machine, recipe, 16, false).getA())
+    .recipeModifier((machine, recipe) => GTRecipeModifiers.accurateParallel(machine, recipe, 16, false).getFirst(), false)
     .pattern(definition => FactoryBlockPattern.start()
         .aisle('  FFF  ', '       ', '       ', '       ', '       ', '       ', '       ', '       ', '       ', '       ', '       ')
         .aisle(' AFFFA ', ' AFFFA ', ' AFFFA ', ' AFFFA ', '       ', '       ', '       ', '       ', '       ', '       ', '       ')
