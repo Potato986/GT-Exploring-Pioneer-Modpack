@@ -32,8 +32,15 @@
     "tagprefix.mercury_stone": "Mercury Stone %s Ore",
     "tagprefix.glacio_stone": "Glacio Stone %s Ore",
     "tagprefix.holystone": "Holy Stone %s Ore",
+    "tagprefix.deimos_stone": "Deimos Stone %s Ore",
+    "tagprefix.ceres_stone": "Ceres Stone %s Ore",
+    "tagprefix.ganymede_stone": "Ganymede Stone %s Ore",
+    "tagprefix.io_stone": "IO Stone %s Ore",
 
     "material.gtceu.steel_leaf": "Steel Leaf",
+    "material.gtceu.alumina": "Alumina",
+    "material.gtceu.vermiculite": "Vermiculite",
+    "material.gtceu.lignite": "Lignite Coal",
 
     "biome.kubejs.space_wastelands": "Space Wastelands",
     "biome.kubejs.io": "IO",
