@@ -47,6 +47,8 @@
     "minecraft:tuff",
     "minecraft:glow_lichen",
     "minecraft:infested_stone",
-    "minecraft:infested_deepslate"
+    "minecraft:infested_deepslate",
+    "minecraft:clay",
+    "minecraft:moss_block"
   ]
 }

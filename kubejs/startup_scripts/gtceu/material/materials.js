@@ -11,4 +11,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('vermiculite')
         .ore().dust().color(0xE7E088)
         .components('3x iron', '10x alumina', '4x silicon', '4x water', '6x oxygen', '2x hydrogen')
+
+    event.create('lignite')
+        .gem(1, 1200).ore(2, 1).color(0x513939)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .flags(GTMaterialFlags.FLAMMABLE, GTMaterialFlags.NO_SMASHING, GTMaterialFlags.MORTAR_GRINDABLE)
+        .components('3x carbon', '1x water')
 })
