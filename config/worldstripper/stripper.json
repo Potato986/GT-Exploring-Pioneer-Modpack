@@ -49,6 +49,11 @@
     "minecraft:infested_stone",
     "minecraft:infested_deepslate",
     "minecraft:clay",
-    "minecraft:moss_block"
+    "minecraft:moss_block",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:soul_sand",
+    "minecraft:magma_block",
+    "minecraft:soul_soil"
   ]
 }

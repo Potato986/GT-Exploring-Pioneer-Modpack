@@ -1,0 +1,231 @@
+// priority 0
+// noinspection DuplicatedCode
+
+const NETHER = 'minecraft:the_nether'
+
+GTCEuServerEvents.oreVeins(event => {
+    event.add('kubejs:sulfur_nether', vein => {
+        vein.weight(100)
+        vein.clusterSize(35)
+        vein.density(0.3)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(5, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Sulfur).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Pyrite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Sphalerite).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Sulfur)
+            .placement('above')
+        )
+    })
+    event.add('kubejs:molybdenum_nether', vein => {
+        vein.weight(10)
+        vein.clusterSize(30)
+        vein.density(0.5)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(20, 60)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.Wulfenite, 2, 40, 60)
+            .withBlock(GTMaterials.Molybdenite, 2, 30, 50)
+            .withBlock(GTMaterials.Molybdenum, 2, 20, 40)
+            .withBlock(GTMaterials.Powellite, 1, 20, 60)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Molybdenum)
+            .placement('above')
+        )
+    })
+    event.add('kubejs:redstone_nether', vein => {
+        vein.weight(60)
+        vein.clusterSize(30)
+        vein.density(0.25)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(5, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(patten => patten
+                .layer(l => l.weight(3).mat(GTMaterials.Redstone).size(2, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.Ruby).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Cinnabar).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Redstone)
+            .placement("above")
+        )
+    })
+    event.add('kubejs:copper_nether', vein => {
+        vein.weight(80)
+        vein.clusterSize(50)
+        vein.density(1)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(5, 60)
+        vein.veinedVeinGenerator(generator => generator
+            .oreBlock(GTMaterials.Chalcopyrite, 3)
+            .oreBlock(GTMaterials.Pyrite, 2)
+            .oreBlock(GTMaterials.Iron, 1)
+            .rareBlock(GTMaterials.Copper, 1)
+            .rareBlockChance(0.075)
+            .veininessThreshold(0.1)
+            .maxRichnessThreshold(0.175)
+            .minRichness(0.4)
+            .maxRichness(0.7)
+            .edgeRoundoffBegin(3)
+            .maxEdgeRoundoff(0.1)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Chalcopyrite)
+            .placement("above")
+        )
+    })
+    event.add('kubejs:iron_nether', vein => {
+        vein.weight(120)
+        vein.clusterSize(50)
+        vein.density(1)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(10, 40)
+        vein.veinedVeinGenerator(generator => generator
+            .oreBlock(GTMaterials.Goethite, 3)
+            .oreBlock(GTMaterials.YellowLimonite, 2)
+            .oreBlock(GTMaterials.Hematite, 2)
+            .rareBlock(GTMaterials.Malachite, 1)
+            .rareBlockChance(0.075)
+            .veininessThreshold(0.1)
+            .maxRichnessThreshold(0.175)
+            .minRichness(0.4)
+            .maxRichness(0.7)
+            .edgeRoundoffBegin(3)
+            .maxEdgeRoundoff(0.1)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Goethite)
+            .placement("above")
+        )
+    })
+    event.add('kubejs:beryllium_nether', vein => {
+        vein.weight(30)
+        vein.clusterSize(20)
+        vein.density(0.4)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(5, 60)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(patten => patten
+                .layer(l => l.weight(3).mat(GTMaterials.Beryllium).size(2, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.Emerald).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Thorium).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Beryllium)
+            .placement("above")
+        )
+    })
+    event.add('kubejs:electrotine_nether', vein => {
+        vein.weight(40)
+        vein.clusterSize(35)
+        vein.density(0.3)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(5, 50)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.Saltpeter).size(1, 2))
+                .layer(l => l.weight(2).mat(GTMaterials.Diatomite).size(1, 2))
+                .layer(l => l.weight(2).mat(GTMaterials.Electrotine).size(1, 2))
+                .layer(l => l.weight(1).mat(GTMaterials.Alunite).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Electrotine)
+            .placement('above')
+        )
+    })
+    event.add('kubejs:tetrahedrite_nether', vein => {
+        vein.weight(80)
+        vein.clusterSize(50)
+        vein.density(1)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(80, 120)
+        vein.veinedVeinGenerator(generator => generator
+            .oreBlock(GTMaterials.Tetrahedrite, 3)
+            .oreBlock(GTMaterials.Copper, 2)
+            .rareBlock(GTMaterials.Stibnite, 1)
+            .rareBlockChance(0.125)
+            .veininessThreshold(0.1)
+            .maxRichnessThreshold(0.175)
+            .minRichness(0.4)
+            .maxRichness(0.7)
+            .edgeRoundoffBegin(3)
+            .maxEdgeRoundoff(0.1)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Chalcopyrite)
+            .placement("above")
+        )
+    })
+    event.add('kubejs:nether_quartz_nether', vein => {
+        vein.weight(40)
+        vein.clusterSize(35)
+        vein.density(0.3)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(40, 80)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.NetherQuartz).size(2, 4))
+                .layer(l => l.weight(1).mat(GTMaterials.Quartzite).size(1, 2))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.NetherQuartz)
+            .placement('above')
+        )
+    })
+    event.add('kubejs:quartzite_nether', vein => {
+        vein.weight(40)
+        vein.clusterSize(35)
+        vein.density(0.3)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(80, 120)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.Quartzite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.CertusQuartz).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Barite).size(1, 2))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.NetherQuartz)
+            .placement('above')
+        )
+    })
+    event.add('kubejs:manganese_nether', vein => {
+        vein.weight(20)
+        vein.clusterSize(40)
+        vein.density(0.8)
+        vein.layer('all')
+        vein.dimensions(NETHER)
+        vein.heightRangeUniform(20, 30)
+        vein.dikeVeinGenerator(generator => generator
+            .withBlock(GTMaterials.Grossular, 2, 26, 30)
+            .withBlock(GTMaterials.Spessartine, 2, 24, 28)
+            .withBlock(GTMaterials.Pyrolusite, 2, 20, 25)
+            .withBlock(GTMaterials.Tantalite, 1, 20, 30)
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Grossular)
+            .placement("above")
+        )
+    })
+})

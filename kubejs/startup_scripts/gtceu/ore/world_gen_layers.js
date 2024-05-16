@@ -3,6 +3,7 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
         .targets(
             '#minecraft:stone_ore_replaceables',
             '#minecraft:deepslate_ore_replaceables',
+            '#minecraft:nether_carver_replaceables',
             '#forge:end_stone_ore_replaceables',
             'ad_astra:moon_stone', 
             'ad_astra:venus_stone', 

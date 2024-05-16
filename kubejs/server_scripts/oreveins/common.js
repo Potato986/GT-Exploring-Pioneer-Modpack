@@ -1,6 +1,5 @@
 // priority 80
 const OVERWORLD = 'minecraft:overworld'
-const NETHER = 'minecraft:the_nether'
 const END = 'minecraft:the_end'
 
 const AETHER = 'aether:the_aether'
