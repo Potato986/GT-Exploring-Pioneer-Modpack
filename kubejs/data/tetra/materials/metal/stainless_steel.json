@@ -1,0 +1,30 @@
+{
+    "key": "stainless_steel",
+    "category": "metal",
+    "primary": 7.6,
+    "secondary": 5.7,
+    "tertiary": 3.9,
+    "durability": 830,
+    "integrityCost": 3,
+    "integrityGain": 10,
+    "magicCapacity": 105,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 11,
+    "tints": {
+        "glyph": "EAEAFA",
+        "texture": "EAEAFA"
+    },
+    "textures": [
+        "shiny",
+        "heavy",
+        "metal"
+    ],
+    "material": {
+        "items": [
+            "gtceu:stainless_steel_ingot"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    }
+}

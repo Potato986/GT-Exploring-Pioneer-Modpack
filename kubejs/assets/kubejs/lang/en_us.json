@@ -57,5 +57,8 @@
     "planet.kubejs.ganymede": "Ganymede",
     "planet.kubejs.ganymede_orbit": "Ganymede Orbit",
     "planet.kubejs.io": "IO",
-    "planet.kubejs.io_orbit": "IO Orbit"
+    "planet.kubejs.io_orbit": "IO Orbit",
+
+    "tetra.material.stainless_steel": "Stainless Steel",
+    "tetra.material.stainless_steel.prefix": "Stainless Steel"
 }

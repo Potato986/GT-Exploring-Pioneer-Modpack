@@ -57,5 +57,8 @@
     "planet.kubejs.ganymede": "木卫三",
     "planet.kubejs.ganymede_orbit": "木卫三轨道",
     "planet.kubejs.io": "木卫一",
-    "planet.kubejs.io_orbit": "木卫一轨道"
+    "planet.kubejs.io_orbit": "木卫一轨道",
+
+    "tetra.material.stainless_steel": "不锈钢",
+    "tetra.material.stainless_steel.prefix": "不锈钢"
 }
