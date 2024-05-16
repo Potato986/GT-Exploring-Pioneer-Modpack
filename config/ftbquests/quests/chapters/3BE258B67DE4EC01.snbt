@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3BE258B67DE4EC01"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "3BE258B67DE4EC01"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D5269B19694E694"
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "74A5222246EB7EBA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "要致富，先撸树"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "41DBB53483642BFD"
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "5701D61013361FDF"
+				item: { Count: 8b, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41DBB53483642BFD"]
+			id: "7DA6176867C08174"
+			shape: "rsquare"
+			tasks: [{
+				count: 2L
+				id: "553BC03BC6990DAE"
+				item: { Count: 2b, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54F6844ACFB0416D"]
+			id: "47F9319C864B23AE"
+			shape: "rsquare"
+			tasks: [{
+				id: "4804375BE765A1B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/basic_hammer_left_material": "basic_hammer/dark_oak"
+										"double/basic_hammer_right_material": "basic_hammer/dark_oak"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/basic_hammer_left_material": "basic_hammer/acacia"
+										"double/basic_hammer_right_material": "basic_hammer/acacia"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/basic_hammer_left_material": "basic_hammer/jungle"
+										"double/basic_hammer_right_material": "basic_hammer/jungle"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/basic_hammer_left_material": "basic_hammer/birch"
+										"double/basic_hammer_right_material": "basic_hammer/birch"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/basic_hammer_left_material": "basic_hammer/spruce"
+										"double/basic_hammer_right_material": "basic_hammer/spruce"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"double/basic_hammer_left_material": "basic_hammer/oak"
+										"double/basic_hammer_right_material": "basic_hammer/oak"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D5269B19694E694"]
+			id: "54F6844ACFB0416D"
+			shape: "rsquare"
+			tasks: [{
+				id: "058B1F3947CAC40A"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47F9319C864B23AE"]
+			id: "281DD593271A5D31"
+			shape: "rsquare"
+			tasks: [{
+				block: "tetra:basic_workbench"
+				block_type: 0
+				checkItem: false
+				id: "191865A853DB7D7E"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54F6844ACFB0416D"]
+			hide_dependency_lines: true
+			id: "17AD03BB196B2BAE"
+			shape: "rsquare"
+			tasks: [{
+				id: "7085A39B32B2EA47"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"47F9319C864B23AE"
+				"281DD593271A5D31"
+				"7DA6176867C08174"
+			]
+			id: "67A9D6622A0E6D34"
+			shape: "rsquare"
+			tasks: [{
+				id: "58B6EE5319B73C65"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_hammer_left_material": "basic_hammer/flint"
+						"double/basic_hammer_right_material": "basic_hammer/flint"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_left:workable": 1
+						"double/head_right": "double/basic_hammer_right"
+						"double/head_right:workable": 1
+						honing_progress: 203
+						id: "a52be242-81dd-4d77-96a0-db79dd842066"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"67A9D6622A0E6D34"
+				"17AD03BB196B2BAE"
+			]
+			id: "131CA3DB5A3A14B8"
+			shape: "rsquare"
+			tasks: [{
+				id: "63056F37F17D880F"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/flint"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/flint"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_left:workable": 1
+						"double/head_right": "double/basic_pickaxe_right"
+						"double/head_right:workable": 1
+						honing_progress: 203
+						id: "da9eed8b-ca10-444d-96bd-178a322323bf"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["131CA3DB5A3A14B8"]
+			id: "3F06C99F47B97EF5"
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "2CFB9F48264201B5"
+				item: { Count: 16b, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F06C99F47B97EF5"]
+			id: "2A5A40D415849F27"
+			shape: "rsquare"
+			tasks: [{
+				id: "7EB8A24F150874FC"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/stone"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/stone"
+						"double/handle": "double/basic_handle"
+						"double/handle/settle_progress": 268
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/basic_pickaxe_right"
+						honing_progress: 275
+						id: "87a67b74-fda2-4ed7-baaf-990091b84d6c"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F06C99F47B97EF5"]
+			id: "3AD9C99CC6C3D519"
+			shape: "rsquare"
+			tasks: [{
+				id: "7DECA9EC1BF83688"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AD9C99CC6C3D519"]
+			id: "6496614627BB6364"
+			shape: "rsquare"
+			tasks: [{
+				id: "1F3383B551EA4549"
+				item: {
+					Count: 1b
+					id: "gtceu:wood_mallet"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6496614627BB6364"]
+			id: "1394C1CC546A6931"
+			shape: "rsquare"
+			tasks: [{
+				id: "3B8D556614CD17FD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "由此开始"
+}

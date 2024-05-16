@@ -54,6 +54,8 @@
     "minecraft:blackstone",
     "minecraft:soul_sand",
     "minecraft:magma_block",
-    "minecraft:soul_soil"
+    "minecraft:soul_soil",
+    "kubejs:ceres_stone",
+    "kubejs:ceres_surface"
   ]
 }
