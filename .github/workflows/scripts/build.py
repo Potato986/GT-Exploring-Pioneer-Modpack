@@ -71,6 +71,18 @@ def main():
     shutil.copytree('kubejs', 'build/overrides/kubejs')
     shutil.copytree('local', 'build/overrides/local')
 
+    # 替换任务书为本地键的版本
+    shutil.copytree(
+        'config/ftbquests/localized_quests/chapters',
+        'build/overrides/config/ftbquests/quests/chapters',
+        dirs_exist_ok=True
+    )
+    shutil.copy(
+        'config/ftbquests/localized_quests/zh_cn.json',
+        'build/overrides/kubejs/assets/gtep/lang/zh_cn.json'
+    )
+    shutil.rmtree('build/overrides/config/ftbquests/localized_quests')
+
     print(f'name={manifest["name"]}-{manifest["version"]}')
 
 

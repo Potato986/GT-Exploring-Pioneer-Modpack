@@ -1,5 +1,5 @@
 name: Build Mod Pack
-on: push
+on: workflow_call
 
 jobs:
   build:
