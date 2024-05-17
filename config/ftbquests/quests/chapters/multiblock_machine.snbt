@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tier_05"
+	filename: "multiblock_machine"
 	group: ""
-	id: "663F94D0D8C41098"
-	order_index: 2
+	id: "44A43F3FD5456580"
+	order_index: 14
 	quest_links: [ ]
 	quests: [ ]
-	title: "&8Tier 0.5 - 蒸汽时代"
+	title: "多方块机器"
 }

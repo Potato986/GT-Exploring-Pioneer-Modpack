@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "3BE258B67DE4EC01"
+	filename: "starting"
 	group: ""
 	icon: "minecraft:oak_log"
 	id: "3BE258B67DE4EC01"
@@ -9,8 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"欢迎来到 &dGregTech Exploring Pioneer&r 整合包"
+				""
+				"该整合包基于 &dGregTech Morden&r 制作"
+			]
 			id: "6D5269B19694E694"
-			shape: "rsquare"
+			subtitle: "&m玩Minecraft都离不开这句话吧"
 			tasks: [{
 				count: 8L
 				id: "74A5222246EB7EBA"
@@ -24,10 +29,11 @@
 				type: "item"
 			}]
 			title: "要致富，先撸树"
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["6D5269B19694E694"]
 			id: "41DBB53483642BFD"
 			shape: "rsquare"
 			tasks: [{
@@ -36,8 +42,8 @@
 				item: { Count: 8b, id: "minecraft:gravel" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["41DBB53483642BFD"]
@@ -49,8 +55,8 @@
 				item: { Count: 2b, id: "minecraft:flint" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["54F6844ACFB0416D"]
@@ -128,19 +134,20 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D5269B19694E694"]
+			dependencies: ["7DA6176867C08174"]
 			id: "54F6844ACFB0416D"
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				id: "058B1F3947CAC40A"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -156,7 +163,7 @@
 				type: "questsadditions:use"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -175,17 +182,14 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 13.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"47F9319C864B23AE"
-				"281DD593271A5D31"
-				"7DA6176867C08174"
-			]
+			dependencies: ["281DD593271A5D31"]
 			id: "67A9D6622A0E6D34"
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				id: "58B6EE5319B73C65"
 				item: {
@@ -208,8 +212,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -240,21 +244,22 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["131CA3DB5A3A14B8"]
 			id: "3F06C99F47B97EF5"
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				count: 16L
 				id: "2CFB9F48264201B5"
 				item: { Count: 16b, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F06C99F47B97EF5"]
@@ -282,7 +287,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F06C99F47B97EF5"]
@@ -293,11 +298,11 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["3AD9C99CC6C3D519"]
+			dependencies: ["54F6844ACFB0416D"]
 			id: "6496614627BB6364"
 			shape: "rsquare"
 			tasks: [{
@@ -317,13 +322,14 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6496614627BB6364"]
 			id: "1394C1CC546A6931"
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
 				id: "3B8D556614CD17FD"
 				item: {
@@ -335,9 +341,10 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 5.0d
+			y: 5.0d
 		}
 	]
+	subtitle: ["你的科技飞升之路"]
 	title: "由此开始"
 }

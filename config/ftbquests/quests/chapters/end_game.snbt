@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tier_7__zpm"
+	filename: "end_game"
 	group: ""
-	id: "100D8C42EF330444"
-	order_index: 9
+	id: "1293D0804C1DCB31"
+	order_index: 17
 	quest_links: [ ]
 	quests: [ ]
-	title: "&cTier 7 - 零点压（ZPM）"
+	title: "终极目标"
 }

@@ -17,7 +17,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install python deps
-        run: pip install toml requests
+        run: pip install -r .github/workflows/scripts/requirements.txt
 
       - name: Build pack
         id: build

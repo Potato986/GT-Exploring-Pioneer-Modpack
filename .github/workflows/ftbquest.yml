@@ -1,0 +1,33 @@
+name: Generate FTB Quest Translate Keys
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - config/ftbquests/quests/chapters/**
+
+jobs:
+  generate:
+    runs-on:
+      - ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Install python deps
+        run: pip install -r .github/workflows/scripts/requirements.txt
+
+      - name: Generate FTB Quest Translate Keys
+        run: python .github/workflows/scripts/ftbquest_localization.py
+
+      - name: Update Translate Keys
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Automated update Translate Keys

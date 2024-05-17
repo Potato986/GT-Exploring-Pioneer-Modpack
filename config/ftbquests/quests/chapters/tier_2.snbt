@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "1FE06AAB0FF39E87"
+	filename: "tier_2"
 	group: ""
-	id: "1FE06AAB0FF39E87"
-	order_index: 12
+	id: "694454E2A1B65548"
+	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
-	title: "摆脱死亡"
+	title: "&bTier 2 - 中压（MV）"
 }
