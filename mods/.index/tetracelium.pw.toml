@@ -1,0 +1,13 @@
+filename = 'tetracelium-1.20.1-1.2.0.jar'
+name = 'tetracelium'
+side = 'both'
+
+[download]
+hash = '1959ce558ae1d22e90185a85352730b8acf2a137'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5240485
+project-id = 929534
