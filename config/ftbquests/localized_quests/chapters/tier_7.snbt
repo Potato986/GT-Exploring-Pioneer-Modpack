@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_7"
+	group: ""
+	id: "100D8C42EF330444"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "{gtep.tier_7.title}"
+}

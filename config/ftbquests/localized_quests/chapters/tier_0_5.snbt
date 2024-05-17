@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_0_5"
+	group: ""
+	id: "663F94D0D8C41098"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "{gtep.tier_0_5.title}"
+}

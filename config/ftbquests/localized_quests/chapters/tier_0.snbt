@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_0"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "gtceu:bronze_pickaxe"
+		tag: {
+			DisallowContainerItem: 0b
+			GT.Behaviours: { }
+			GT.Tool: {
+				AttackDamage: 3.0f
+				AttackSpeed: -2.8f
+				Damage: 0
+				HarvestLevel: 2
+				MaxDamage: 191
+				ToolSpeed: 7.0f
+			}
+			HideFlags: 2
+		}
+	}
+	id: "6B36FCA38658A2F9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["1394C1CC546A6931"]
+		icon: {
+			Count: 1b
+			ForgeCaps: {
+				Parent: {
+					Items: [ ]
+					Size: 5
+				}
+			}
+			id: "solonion:lunchbag"
+		}
+		id: "6C192811F4E486ED"
+		rewards: [
+			{
+				id: "7A6E829EA775B359"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solonion:lunchbag"
+				}
+				type: "item"
+			}
+			{
+				id: "3DEAB34EDC51C1CE"
+				item: "solonion:food_book"
+				type: "item"
+			}
+		]
+		shape: "rsquare"
+		size: 2.0d
+		tasks: [{
+			id: "3BE99484D453ABD3"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "{gtep.tier_0.title}"
+}
