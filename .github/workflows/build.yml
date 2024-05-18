@@ -5,6 +5,8 @@ jobs:
   generate:
     name: Generate FTB Quest Translate Keys
     secrets: inherit
+    permissions:
+      contents: write
     uses: ./.github/workflows/ftbquest.yml
 
   crowdin:
@@ -12,6 +14,8 @@ jobs:
       - generate
     name: Update Crowdin Sources / Translations
     secrets: inherit
+    permissions:
+      contents: write
     uses: ./.github/workflows/crowdin.yml
 
   build:
