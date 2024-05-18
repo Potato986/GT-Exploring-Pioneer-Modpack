@@ -22,7 +22,7 @@ jobs:
           project_id: 676860
           token: ${{ secrets.CROWDIN_API_TOKEN }}
           base_url: https://api.crowdin.com
-          base_path: /
-          source: config/ftbquests/localized_quests/zh_cn.json
-          translation: kubejs/assets/gtep_quests/lang/%locale_with_underscore%.%file_extension%
+          base_path: config/ftbquests/localized_quests
+          source: /zh_cn.json
+          translation: /%locale_with_underscore%.%file_extension%
           preserve_hierarchy: false

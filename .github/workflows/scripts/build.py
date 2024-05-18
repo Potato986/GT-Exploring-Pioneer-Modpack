@@ -62,7 +62,8 @@ def main():
             download_file(info['filename'], info['download']['url'])
 
     for files in pack_info['files']:
-        download_file(files['filename'], files['url'])
+        ...
+        # download_file(files['filename'], files['url'])
 
     with open('build/manifest.json', 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=4, ensure_ascii=False)
@@ -77,10 +78,11 @@ def main():
         'build/overrides/config/ftbquests/quests/chapters',
         dirs_exist_ok=True
     )
-    os.makedirs('build/overrides/kubejs/assets/gtep_quests/lang', exist_ok=True)
-    shutil.copy(
-        'config/ftbquests/localized_quests/zh_cn.json',
-        'build/overrides/kubejs/assets/gtep_quests/lang/zh_cn.json'
+    os.makedirs('build/overrides/kubejs/assets/gtep_quests', exist_ok=True)
+    shutil.copytree(
+        'config/ftbquests/localized_quests',
+        'build/overrides/kubejs/assets/gtep_quests/lang',
+        ignore=lambda src, fs: filter(lambda x: not x.endswith('.json'), fs)
     )
     shutil.rmtree('build/overrides/config/ftbquests/localized_quests')
 
