@@ -11,6 +11,12 @@
 - 使用命令行输入 `git clone https://github.com/GregTech-Exploring-Pioneer/GT-Exploring-Pioneer-Modpack.git temp`
 - 将 `temp` 文件内的所有东西移动到 `.minecraft` 文件夹内即可
 
+### 参与翻译？ 
+
+现在整合包使用 [Crowdin](https://crowdin.com/project/gt-exploring-pioneer-modpack) 来进行任务书的 `中 -> 英` 翻译
+
+[![Crowdin](https://badges.crowdin.net/gt-exploring-pioneer-modpack/localized.svg)](https://crowdin.com/project/gt-exploring-pioneer-modpack)
+
 ### 附属大致流程
 
 | GT 阶段 | 存储 & 物流        | 科技      | 魔法   | 冒险       | 实用 & QOL   |
