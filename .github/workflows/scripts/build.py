@@ -77,10 +77,10 @@ def main():
         'build/overrides/config/ftbquests/quests/chapters',
         dirs_exist_ok=True
     )
-    os.makedirs('build/overrides/kubejs/assets/gtep/lang', exist_ok=True)
+    os.makedirs('build/overrides/kubejs/assets/gtep_quests/lang', exist_ok=True)
     shutil.copy(
         'config/ftbquests/localized_quests/zh_cn.json',
-        'build/overrides/kubejs/assets/gtep/lang/zh_cn.json'
+        'build/overrides/kubejs/assets/gtep_quests/lang/zh_cn.json'
     )
     shutil.rmtree('build/overrides/config/ftbquests/localized_quests')
 

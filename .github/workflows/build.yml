@@ -1,15 +1,30 @@
 name: Build Mod Pack
-on: workflow_call
+on: push
 
 jobs:
+  generate:
+    name: Generate FTB Quest Translate Keys
+    secrets: inherit
+    uses: ./.github/workflows/ftbquest.yml
+
+  crowdin:
+    needs:
+      - generate
+    name: Update Crowdin Sources / Translations
+    secrets: inherit
+    uses: ./.github/workflows/crowdin.yml
+
   build:
+    name: Build Modpack
+    needs:
+      - crowdin
     runs-on: ubuntu-latest
     env:
       BUILD_NUM: ${{ github.run_number }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v2

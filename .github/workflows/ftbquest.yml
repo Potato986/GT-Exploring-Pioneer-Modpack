@@ -1,5 +1,5 @@
 name: Generate FTB Quest Translate Keys
-on: push
+on: workflow_call
 
 jobs:
   generate:
@@ -9,7 +9,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -26,9 +26,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automated update Translate Keys
-
-  build:
-    needs:
-      - generate
-    secrets: inherit
-    uses: ./.github/workflows/build.yml
