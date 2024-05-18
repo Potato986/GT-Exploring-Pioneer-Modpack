@@ -23,48 +23,517 @@
 	id: "6B36FCA38658A2F9"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["1394C1CC546A6931"]
-		icon: {
-			Count: 1b
-			ForgeCaps: {
-				Parent: {
-					Items: [ ]
-					Size: 5
-				}
-			}
-			id: "solonion:lunchbag"
-		}
-		id: "6C192811F4E486ED"
-		rewards: [
-			{
-				id: "7A6E829EA775B359"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 5
+	quests: [
+		{
+			dependencies: ["1394C1CC546A6931"]
+			icon: "solonion:lunchbag"
+			id: "6C192811F4E486ED"
+			rewards: [
+				{
+					id: "7A6E829EA775B359"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
 						}
+						id: "solonion:lunchbag"
 					}
-					id: "solonion:lunchbag"
+					type: "item"
+				}
+				{
+					id: "3DEAB34EDC51C1CE"
+					item: "solonion:food_book"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "3BE99484D453ABD3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C192811F4E486ED"]
+			id: "59DE4592CF080820"
+			tasks: [{
+				count: 25L
+				id: "6F81C23EEEAA3DF2"
+				item: {
+					Count: 25b
+					id: "minecraft:stone"
 				}
 				type: "item"
-			}
-			{
-				id: "3DEAB34EDC51C1CE"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C192811F4E486ED"]
+			icon: "solonion:food_book"
+			id: "35AF198FCB1796F7"
+			rewards: [{
+				id: "35D2D519A7E78760"
 				item: "solonion:food_book"
 				type: "item"
-			}
-		]
-		shape: "rsquare"
-		size: 2.0d
-		tasks: [{
-			id: "3BE99484D453ABD3"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			tasks: [{
+				id: "5935936F5F26ACDB"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C192811F4E486ED"]
+			icon: "minecraft:bookshelf"
+			id: "42EB3391AD10BEE1"
+			tasks: [{
+				id: "37717D1D04771F99"
+				title: "{gtep.tier_0.quests.42EB3391AD10BEE1.tasks.37717D1D04771F99.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C192811F4E486ED"]
+			id: "3128FB5983E8D5BD"
+			tasks: [{
+				count: 128L
+				id: "1E886EEC4FE1E6DE"
+				item: {
+					Count: 64b
+					id: "minecraft:sand"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3128FB5983E8D5BD"
+				"5617A18C11C94B3F"
+			]
+			id: "0AD5B043B0ADE175"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [
+				{
+					id: "12B6780BE2FDE766"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "2FCC06BC9146109D"
+					item: {
+						Count: 25b
+						id: "gtceu:coke_oven_bricks"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C192811F4E486ED"]
+			id: "6835F2D4267D46B2"
+			tasks: [{
+				count: 64L
+				id: "358D50ABD353A402"
+				item: {
+					Count: 64b
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["226159A54E36BB61"]
+			id: "5617A18C11C94B3F"
+			tasks: [{
+				count: 64L
+				id: "7C8386DD6AE01B25"
+				item: {
+					Count: 64b
+					id: "gtceu:coke_oven_brick"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6835F2D4267D46B2"]
+			id: "226159A54E36BB61"
+			tasks: [{
+				id: "5222C444815710A3"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0AD5B043B0ADE175"]
+			id: "01EE5C2EA9152186"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "1909D76D87AEDF5B"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["01EE5C2EA9152186"]
+			icon: "minecraft:iron_ore"
+			id: "0A7EB7F3E0FA20D2"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "144E547DA1C9083F"
+				title: "{gtep.tier_0.quests.0A7EB7F3E0FA20D2.tasks.144E547DA1C9083F.title}"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0A7EB7F3E0FA20D2"]
+			id: "29F3F854E9BADB26"
+			tasks: [
+				{
+					count: 16L
+					id: "4A7C510D204B6674"
+					item: {
+						Count: 16b
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6E0E53D40DCF157C"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_goethite"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "68C4D7BBE2F8BCA9"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_hematite"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4683EC06A498B40D"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "217627EC6D371572"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0A7EB7F3E0FA20D2"]
+			id: "589D1779D3C7732B"
+			tasks: [
+				{
+					count: 32L
+					id: "15E5899BC6B357E1"
+					item: {
+						Count: 32b
+						id: "gtceu:raw_chalcopyrite"
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "76062D6B7B84052E"
+					item: {
+						Count: 32b
+						id: "minecraft:raw_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2FF68021D7E86084"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "447F71C01D43E57F"
+					item: {
+						Count: 16b
+						id: "minecraft:raw_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A7EB7F3E0FA20D2"]
+			id: "270B7BCE1E16A524"
+			tasks: [
+				{
+					count: 16L
+					id: "1D76FD7A981BF642"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_coal"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "76B81C8111B470A4"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_lignite"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A7EB7F3E0FA20D2"]
+			id: "2AC0F3D3B436E74D"
+			tasks: [
+				{
+					count: 16L
+					id: "19283959E23B2F95"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_malachite"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0621F1A0C83B580C"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_hematite"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3E1B1587637D0443"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_yellow_limonite"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "345E5325DD7D4DC5"
+					item: {
+						Count: 16b
+						id: "gtceu:raw_goethite"
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0A7EB7F3E0FA20D2"]
+			id: "3ECA6FCCF98186B7"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1E57D770578B5FD1"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/basic_pickaxe_right"
+						honing_progress: 440
+						id: "69c51b6f-7c82-4317-a4c1-8f3fa6aa6db2"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ECA6FCCF98186B7"]
+			id: "301AA9414C5AFE03"
+			tasks: [{
+				count: 16L
+				id: "2865437F5DE8A22F"
+				item: {
+					Count: 16b
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ECA6FCCF98186B7"]
+			id: "6A014CF9AB3FD07F"
+			tasks: [{
+				count: 16L
+				id: "27CCBB219BA599BE"
+				item: {
+					Count: 16b
+					id: "gtceu:tin_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"301AA9414C5AFE03"
+				"6A014CF9AB3FD07F"
+			]
+			id: "56386044B4FDFECB"
+			tasks: [
+				{
+					count: 32L
+					id: "3A40295E821F324D"
+					item: {
+						Count: 32b
+						id: "gtceu:bronze_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "22E0E4997225C1B3"
+					item: {
+						Count: 32b
+						id: "gtceu:bronze_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56386044B4FDFECB"]
+			id: "28CDC7E162EECD21"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "2BD4F4756FA67ADD"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28CDC7E162EECD21"]
+			id: "37111436CE7FE095"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [
+				{
+					id: "2F16BD10D1FAF6A8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/hammers"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25D81601E208E4A5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A6F46DB4C8C5488"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48C4AEF8C64A63C3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4165B1579E2CB36D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
 	title: "{gtep.tier_0.title}"
 }
