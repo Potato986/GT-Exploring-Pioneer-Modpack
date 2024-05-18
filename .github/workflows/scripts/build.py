@@ -77,12 +77,13 @@ def main():
         'build/overrides/config/ftbquests/quests/chapters',
         dirs_exist_ok=True
     )
-    os.makedirs('build/overrides/kubejs/assets/gtep_quests', exist_ok=True)
-    shutil.copytree(
-        'config/ftbquests/localized_quests',
-        'build/overrides/kubejs/assets/gtep_quests/lang',
-        ignore=lambda src, fs: filter(lambda x: not x.endswith('.json'), fs)
-    )
+    os.makedirs('build/overrides/kubejs/assets/gtep_quests/lang', exist_ok=True)
+    for localized_files in os.listdir('config/ftbquests/localized_quests'):
+        if localized_files.endswith('.json'):
+            shutil.copyfile(
+                'config/ftbquests/localized_quests/' + localized_files,
+                'build/overrides/kubejs/assets/gtep_quests/lang/' + localized_files.lower(),
+            )
     shutil.rmtree('build/overrides/config/ftbquests/localized_quests')
 
     print(f'name={manifest["name"]}-{manifest["version"]}')
