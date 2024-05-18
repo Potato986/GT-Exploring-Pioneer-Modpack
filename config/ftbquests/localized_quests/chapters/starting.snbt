@@ -15,6 +15,8 @@
 				"{gtep.starting.quests.6D5269B19694E694.description1}"
 			]
 			id: "6D5269B19694E694"
+			shape: "hexagon"
+			size: 3.0d
 			subtitle: "{gtep.starting.quests.6D5269B19694E694.subtitle}"
 			tasks: [{
 				count: 8L
@@ -29,7 +31,7 @@
 				type: "item"
 			}]
 			title: "{gtep.starting.quests.6D5269B19694E694.title}"
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
