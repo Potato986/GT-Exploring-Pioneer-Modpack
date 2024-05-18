@@ -6,6 +6,61 @@
 	id: "44A43F3FD5456580"
 	order_index: 14
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["70226C542DD7ECB3"]
+			id: "3B0B7A22C6C04008"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "45ADEAFFC84C35DA"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7153DF1D1ACBBD15"
+					item: { Count: 32b, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B0B7A22C6C04008"]
+			id: "668CFC9B3A40FB8A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "37C907E34B39EFAF"
+					item: "gtceu:large_primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 101L
+					id: "265ED0BB9EA849BA"
+					item: { Count: 101b, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1B6AD142803D724D"
+					item: { Count: 16b, id: "gtceu:steel_frame" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "14A253F57DE087FC"
+					item: { Count: 9b, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
 	title: "多方块机器"
 }
