@@ -2,7 +2,7 @@ name: Update Crowdin Sources / Translations
 on: workflow_call
 
 jobs:
-  crowdin:
+  update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,6 +23,6 @@ jobs:
           token: ${{ secrets.CROWDIN_API_TOKEN }}
           base_url: https://api.crowdin.com
           base_path: /
-          source: /config/ftbquests/localized_quests/zh_cn.json
-          translation: /kubejs/assets/gtep_quests/lang/%locale_with_underscore%.%file_extension%
+          source: config/ftbquests/localized_quests/zh_cn.json
+          translation: kubejs/assets/gtep_quests/lang/%locale_with_underscore%.%file_extension%
           preserve_hierarchy: true

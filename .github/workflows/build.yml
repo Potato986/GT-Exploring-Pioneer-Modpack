@@ -3,7 +3,7 @@ on: push
 
 jobs:
   generate:
-    name: Generate FTB Quest Translate Keys
+    name: FTB Quest
     secrets: inherit
     permissions:
       contents: write
@@ -12,14 +12,14 @@ jobs:
   crowdin:
     needs:
       - generate
-    name: Update Crowdin Sources / Translations
+    name: Crowdin
     secrets: inherit
     permissions:
       contents: write
     uses: ./.github/workflows/crowdin.yml
 
   build:
-    name: Build Modpack
+    name: Modpack
     needs:
       - crowdin
     runs-on: ubuntu-latest
