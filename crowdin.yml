@@ -3,7 +3,6 @@ api_token_env: CROWDIN_API_TOKEN
 base_path: kubejs/assets/gtep_quests/lang
 
 preserve_hierarchy: true
-
 files:
   - source: zh_cn.json
     translation: '%locale_with_underscore%.%file_extension%'
