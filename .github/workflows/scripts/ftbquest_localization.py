@@ -14,7 +14,7 @@ QUEST_CHAPTERS_LOCALIZED_PATH = QUEST_LOCALIZED_PATH / 'chapters'
 QUEST_CHAPTERS_LOCALIZED_PATH.mkdir(exist_ok=True)
 
 LANG_FILE_PATH = Path('kubejs/assets/gtep_quests/lang')
-LANG_FILE_PATH.mkdir(exist_ok=True)
+os.makedirs(LANG_FILE_PATH, exist_ok=True)
 SOURCE_LANGUAGE = 'zh_cn'
 
 PACK_SHORT_KEY = "gtep"
