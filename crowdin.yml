@@ -6,7 +6,7 @@ preserve_hierarchy: true
 
 files:
   - source: zh_cn.json
-    translation: %locale_with_underscore%.%file_extension%
+    translation: '%locale_with_underscore%.%file_extension%'
     languages_mapping:
       locale_with_underscore:
         zh-CN: zh_cn
