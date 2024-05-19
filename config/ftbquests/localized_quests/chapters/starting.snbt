@@ -36,6 +36,7 @@
 		}
 		{
 			dependencies: ["6D5269B19694E694"]
+			description: ["{gtep.starting.quests.41DBB53483642BFD.description0}"]
 			id: "41DBB53483642BFD"
 			shape: "rsquare"
 			tasks: [{
