@@ -1,0 +1,1335 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "GT-Exploring-Pioneer",
+  "version": "0.1+build.73",
+  "author": "DancingSnow",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "files": [
+    {
+      "projectID": 268560,
+      "fileID": 5125665,
+      "fileName": "Mekanism-1.20.1-10.4.6.20.jar",
+      "url": "https://edge.forgecdn.net/files/5125/665/Mekanism-1.20.1-10.4.6.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 735523,
+      "fileID": 4901194,
+      "fileName": "emitrades-forge-1.2.1+mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/4901/194/emitrades-forge-1.2.1%2bmc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 298187,
+      "fileID": 5144161,
+      "fileName": "buildinggadgets2-1.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/5144/161/buildinggadgets2-1.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 496394,
+      "fileID": 4736227,
+      "fileName": "nethersdelight-1.20.1-4.0.jar",
+      "url": "https://edge.forgecdn.net/files/4736/227/nethersdelight-1.20.1-4.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 4620069,
+      "fileName": "FastLeafDecay-31.jar",
+      "url": "https://edge.forgecdn.net/files/4620/69/FastLeafDecay-31.jar",
+      "required": true
+    },
+    {
+      "projectID": 441647,
+      "fileID": 5277816,
+      "fileName": "FramedBlocks-9.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/5277/816/FramedBlocks-9.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 411357,
+      "fileID": 5127097,
+      "fileName": "BotanyTrees-Forge-1.20.1-9.0.11.jar",
+      "url": "https://edge.forgecdn.net/files/5127/97/BotanyTrees-Forge-1.20.1-9.0.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 223794,
+      "fileID": 5253401,
+      "fileName": "appliedenergistics2-forge-15.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/5253/401/appliedenergistics2-forge-15.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 864875,
+      "fileID": 4920497,
+      "fileName": "kubejsdelight-1.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/4920/497/kubejsdelight-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 545467,
+      "fileID": 4787087,
+      "fileName": "SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar",
+      "url": "https://edge.forgecdn.net/files/4787/87/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar",
+      "required": true
+    },
+    {
+      "projectID": 570073,
+      "fileID": 5210240,
+      "fileName": "resourcefullib-forge-1.20.1-2.1.24.jar",
+      "url": "https://edge.forgecdn.net/files/5210/240/resourcefullib-forge-1.20.1-2.1.24.jar",
+      "required": true
+    },
+    {
+      "projectID": 272335,
+      "fileID": 5228968,
+      "fileName": "Cucumber-1.20.1-7.0.8.jar",
+      "url": "https://edge.forgecdn.net/files/5228/968/Cucumber-1.20.1-7.0.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 431725,
+      "fileID": 5256278,
+      "fileName": "AdvancedPeripherals-1.20.1-0.7.39r.jar",
+      "url": "https://edge.forgecdn.net/files/5256/278/AdvancedPeripherals-1.20.1-0.7.39r.jar",
+      "required": true
+    },
+    {
+      "projectID": 845576,
+      "fileID": 4825544,
+      "fileName": "tetrasdelight-1.20.1-1.jar",
+      "url": "https://edge.forgecdn.net/files/4825/544/tetrasdelight-1.20.1-1.jar",
+      "required": true
+    },
+    {
+      "projectID": 538092,
+      "fileID": 5345703,
+      "fileName": "betterp2p-1.4.0-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5345/703/betterp2p-1.4.0-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 459701,
+      "fileID": 4766090,
+      "fileName": "catalogue-forge-1.20.1-1.8.0.jar",
+      "url": "https://edge.forgecdn.net/files/4766/90/catalogue-forge-1.20.1-1.8.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 420519,
+      "fileID": 4664631,
+      "fileName": "gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+      "url": "https://edge.forgecdn.net/files/4664/631/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 500273,
+      "fileID": 4612695,
+      "fileName": "VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+      "url": "https://edge.forgecdn.net/files/4612/695/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 309927,
+      "fileID": 5296876,
+      "fileName": "curios-forge-5.9.0+1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5296/876/curios-forge-5.9.0%2b1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 368825,
+      "fileID": 5140152,
+      "fileName": "inventoryessentials-forge-1.20.1-8.2.3.jar",
+      "url": "https://edge.forgecdn.net/files/5140/152/inventoryessentials-forge-1.20.1-8.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 662675,
+      "fileID": 4678069,
+      "fileName": "ends_delight-1.20.1-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/4678/69/ends_delight-1.20.1-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 714059,
+      "fileID": 5020441,
+      "fileName": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "url": "https://edge.forgecdn.net/files/5020/441/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 404468,
+      "fileID": 5267190,
+      "fileName": "ftb-teams-forge-2001.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5267/190/ftb-teams-forge-2001.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 232758,
+      "fileID": 5262063,
+      "fileName": "CyclopsCore-1.20.1-1.19.1.jar",
+      "url": "https://edge.forgecdn.net/files/5262/63/CyclopsCore-1.20.1-1.19.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 313970,
+      "fileID": 5209354,
+      "fileName": "Apotheosis-1.20.1-7.3.4.jar",
+      "url": "https://edge.forgecdn.net/files/5209/354/Apotheosis-1.20.1-7.3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 252848,
+      "fileID": 4712189,
+      "fileName": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "url": "https://edge.forgecdn.net/files/4712/189/NaturesCompass-1.20.1-1.11.2-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 361276,
+      "fileID": 5221691,
+      "fileName": "lootr-forge-1.20-0.7.33.83.jar",
+      "url": "https://edge.forgecdn.net/files/5221/691/lootr-forge-1.20-0.7.33.83.jar",
+      "required": true
+    },
+    {
+      "projectID": 291936,
+      "fileID": 5074609,
+      "fileName": "findme-3.2.1-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5074/609/findme-3.2.1-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 908741,
+      "fileID": 5308079,
+      "fileName": "embeddium-0.3.17+mc1.20.1-all.jar",
+      "url": "https://edge.forgecdn.net/files/5308/79/embeddium-0.3.17%2bmc1.20.1-all.jar",
+      "required": true
+    },
+    {
+      "projectID": 841262,
+      "fileID": 4652060,
+      "fileName": "oceansdelight-1.0.2-1.20.jar",
+      "url": "https://edge.forgecdn.net/files/4652/60/oceansdelight-1.0.2-1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 250398,
+      "fileID": 4646682,
+      "fileName": "Controlling-forge-1.20.1-12.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 825333,
+      "fileID": 5094991,
+      "fileName": "toolbooster-1.0-1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5094/991/toolbooster-1.0-1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 361026,
+      "fileID": 5253923,
+      "fileName": "occultism-1.20.1-1.125.0.jar",
+      "url": "https://edge.forgecdn.net/files/5253/923/occultism-1.20.1-1.125.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 60089,
+      "fileID": 4581240,
+      "fileName": "MouseTweaks-forge-mc1.20-2.25.jar",
+      "url": "https://edge.forgecdn.net/files/4581/240/MouseTweaks-forge-mc1.20-2.25.jar",
+      "required": true
+    },
+    {
+      "projectID": 308240,
+      "fileID": 5161389,
+      "fileName": "cherishedworlds-forge-6.1.6+1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5161/389/cherishedworlds-forge-6.1.6%2b1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 297404,
+      "fileID": 4975638,
+      "fileName": "I18nUpdateMod-3.5.3-all.jar",
+      "url": "https://edge.forgecdn.net/files/4975/638/I18nUpdateMod-3.5.3-all.jar",
+      "required": true
+    },
+    {
+      "projectID": 296676,
+      "fileID": 4814120,
+      "fileName": "culinaryconstruct-forge-5.2.1+1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/4814/120/culinaryconstruct-forge-5.2.1+1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 687974,
+      "fileID": 5158895,
+      "fileName": "PineappleDelight-Forge-1.20-1.0.8-Fix2.jar",
+      "url": "https://edge.forgecdn.net/files/5158/895/PineappleDelight-Forge-1.20-1.0.8-Fix2.jar",
+      "required": true
+    },
+    {
+      "projectID": 443900,
+      "fileID": 4971152,
+      "fileName": "pipez-forge-1.20.1-1.2.6.jar",
+      "url": "https://edge.forgecdn.net/files/4971/152/pipez-forge-1.20.1-1.2.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 372534,
+      "fileID": 5097798,
+      "fileName": "pamhc2foodcore-1.20.4-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/5097/798/pamhc2foodcore-1.20.4-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 950712,
+      "fileID": 5108914,
+      "fileName": "ApothicCurios-1.20.1-1.0.3b.jar",
+      "url": "https://edge.forgecdn.net/files/5108/914/ApothicCurios-1.20.1-1.0.3b.jar",
+      "required": true
+    },
+    {
+      "projectID": 898963,
+      "fileID": 5209162,
+      "fileName": "ApothicAttributes-1.20.1-1.3.4.jar",
+      "url": "https://edge.forgecdn.net/files/5209/162/ApothicAttributes-1.20.1-1.3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 291788,
+      "fileID": 4594932,
+      "fileName": "ServerTabInfo-1.20-1.3.8.jar",
+      "url": "https://edge.forgecdn.net/files/4594/932/ServerTabInfo-1.20-1.3.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 314906,
+      "fileID": 5267364,
+      "fileName": "ftb-chunks-forge-2001.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5267/364/ftb-chunks-forge-2001.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 289412,
+      "fileID": 5282519,
+      "fileName": "ftb-quests-forge-2001.4.1.jar",
+      "url": "https://edge.forgecdn.net/files/5282/519/ftb-quests-forge-2001.4.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 622112,
+      "fileID": 5310784,
+      "fileName": "megacells-forge-2.3.6-1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5310/784/megacells-forge-2.3.6-1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 977515,
+      "fileID": 5275041,
+      "fileName": "moredelight-1.1.2-1.20.1-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5275/41/moredelight-1.1.2-1.20.1-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 416294,
+      "fileID": 4944325,
+      "fileName": "rhino-forge-2001.2.2-build.18.jar",
+      "url": "https://edge.forgecdn.net/files/4944/325/rhino-forge-2001.2.2-build.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 615134,
+      "fileID": 4784395,
+      "fileName": "badpackets-forge-0.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/4784/395/badpackets-forge-0.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 552574,
+      "fileID": 5170242,
+      "fileName": "HostileNeuralNetworks-1.20.1-5.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5170/242/HostileNeuralNetworks-1.20.1-5.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 492246,
+      "fileID": 4714765,
+      "fileName": "MaxHealthFix-Forge-1.20.1-12.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/4714/765/MaxHealthFix-Forge-1.20.1-12.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 889915,
+      "fileID": 5257897,
+      "fileName": "ftb-xmod-compat-forge-2.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/5257/897/ftb-xmod-compat-forge-2.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 871735,
+      "fileID": 5271010,
+      "fileName": "twilightdelight-2.0.11.jar",
+      "url": "https://edge.forgecdn.net/files/5271/10/twilightdelight-2.0.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 251389,
+      "fileID": 5297742,
+      "fileName": "IntegratedTunnels-1.20.1-1.8.27.jar",
+      "url": "https://edge.forgecdn.net/files/5297/742/IntegratedTunnels-1.20.1-1.8.27.jar",
+      "required": true
+    },
+    {
+      "projectID": 576589,
+      "fileID": 5218944,
+      "fileName": "polylib-forge-2000.0.3-build.133.jar",
+      "url": "https://edge.forgecdn.net/files/5218/944/polylib-forge-2000.0.3-build.133.jar",
+      "required": true
+    },
+    {
+      "projectID": 442508,
+      "fileID": 4983862,
+      "fileName": "DungeonsArise-1.20.x-2.1.58-release.jar",
+      "url": "https://edge.forgecdn.net/files/4983/862/DungeonsArise-1.20.x-2.1.58-release.jar",
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 5101366,
+      "fileName": "jei-1.20.1-forge-15.3.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/5101/366/jei-1.20.1-forge-15.3.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 858542,
+      "fileID": 5284015,
+      "fileName": "Searchables-forge-1.20.1-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 1015315,
+      "fileID": 5354637,
+      "fileName": "monazite-1.20.1-1.1.5.jar",
+      "url": "https://edge.forgecdn.net/files/5354/637/monazite-1.20.1-1.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 272515,
+      "fileID": 4985146,
+      "fileName": "BetterAdvancements-1.20.1-0.3.2.162.jar",
+      "url": "https://edge.forgecdn.net/files/4985/146/BetterAdvancements-1.20.1-0.3.2.162.jar",
+      "required": true
+    },
+    {
+      "projectID": 271740,
+      "fileID": 4711316,
+      "fileName": "ToastControl-1.20.1-8.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/4711/316/ToastControl-1.20.1-8.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 308380,
+      "fileID": 5277692,
+      "fileName": "PackagedAuto-1.20.1-3.4.5.18.jar",
+      "url": "https://edge.forgecdn.net/files/5277/692/PackagedAuto-1.20.1-3.4.5.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 531761,
+      "fileID": 5140912,
+      "fileName": "balm-forge-1.20.1-7.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/5140/912/balm-forge-1.20.1-7.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 306626,
+      "fileID": 4963590,
+      "fileName": "NaturesAura-39.4.jar",
+      "url": "https://edge.forgecdn.net/files/4963/590/NaturesAura-39.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 250603,
+      "fileID": 4578579,
+      "fileName": "World Stripper-1.20-3.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/4578/579/World%20Stripper-1.20-3.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 388172,
+      "fileID": 5188427,
+      "fileName": "geckolib-forge-1.20.1-4.4.4.jar",
+      "url": "https://edge.forgecdn.net/files/5188/427/geckolib-forge-1.20.1-4.4.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 870210,
+      "fileID": 4848244,
+      "fileName": "trenzalore-forge-3.3.10+mc1.20.1-all.jar",
+      "url": "https://edge.forgecdn.net/files/4848/244/trenzalore-forge-3.3.10%2bmc1.20.1-all.jar",
+      "required": true
+    },
+    {
+      "projectID": 638111,
+      "fileID": 4650325,
+      "fileName": "Prism-1.20.1-forge-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/4650/325/Prism-1.20.1-forge-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 353928,
+      "fileID": 5283307,
+      "fileName": "BotanyPots-Forge-1.20.1-13.0.29.jar",
+      "url": "https://edge.forgecdn.net/files/5283/307/BotanyPots-Forge-1.20.1-13.0.29.jar",
+      "required": true
+    },
+    {
+      "projectID": 345779,
+      "fileID": 5095685,
+      "fileName": "plonk-1.20.1-10.0.5-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5095/685/plonk-1.20.1-10.0.5-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 704113,
+      "fileID": 5118353,
+      "fileName": "botarium-forge-1.20.1-2.3.3.jar",
+      "url": "https://edge.forgecdn.net/files/5118/353/botarium-forge-1.20.1-2.3.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 495476,
+      "fileID": 5197362,
+      "fileName": "PuzzlesLib-v8.1.18-1.20.1-Forge.jar",
+      "url": "https://edge.forgecdn.net/files/5197/362/PuzzlesLib-v8.1.18-1.20.1-Forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 878047,
+      "fileID": 5335208,
+      "fileName": "SoLOnion_FORGE_v1.2.7_mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5335/208/SoLOnion_FORGE_v1.2.7_mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 225643,
+      "fileID": 5002307,
+      "fileName": "Botania-1.20.1-443-FORGE.jar",
+      "url": "https://edge.forgecdn.net/files/5002/307/Botania-1.20.1-443-FORGE.jar",
+      "required": true
+    },
+    {
+      "projectID": 580555,
+      "fileID": 5311316,
+      "fileName": "emi-1.1.6+1.20.1+forge.jar",
+      "url": "https://edge.forgecdn.net/files/5311/316/emi-1.1.6%2b1.20.1%2bforge.jar",
+      "required": true
+    },
+    {
+      "projectID": 574300,
+      "fileID": 4842281,
+      "fileName": "Applied-Mekanistics-1.4.2.jar",
+      "url": "https://edge.forgecdn.net/files/4842/281/Applied-Mekanistics-1.4.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 255308,
+      "fileID": 5302178,
+      "fileName": "aether-1.20.1-1.4.2-neoforge.jar",
+      "url": "https://edge.forgecdn.net/files/5302/178/aether-1.20.1-1.4.2-neoforge.jar",
+      "required": true
+    },
+    {
+      "projectID": 459929,
+      "fileID": 5217955,
+      "fileName": "ae2wtlib-15.2.3-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5217/955/ae2wtlib-15.2.3-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 532127,
+      "fileID": 4662781,
+      "fileName": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+      "url": "https://edge.forgecdn.net/files/4662/781/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 254268,
+      "fileID": 5264637,
+      "fileName": "torchmaster-20.1.6.jar",
+      "url": "https://edge.forgecdn.net/files/5264/637/torchmaster-20.1.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 237307,
+      "fileID": 4600191,
+      "fileName": "cosmeticarmorreworked-1.20.1-v1a.jar",
+      "url": "https://edge.forgecdn.net/files/4600/191/cosmeticarmorreworked-1.20.1-v1a.jar",
+      "required": true
+    },
+    {
+      "projectID": 238086,
+      "fileID": 5268032,
+      "fileName": "kubejs-forge-2001.6.5-build.7.jar",
+      "url": "https://edge.forgecdn.net/files/5268/32/kubejs-forge-2001.6.5-build.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 306770,
+      "fileID": 4966125,
+      "fileName": "Patchouli-1.20.1-84-FORGE.jar",
+      "url": "https://edge.forgecdn.net/files/4966/125/Patchouli-1.20.1-84-FORGE.jar",
+      "required": true
+    },
+    {
+      "projectID": 622737,
+      "fileID": 4834403,
+      "fileName": "ftbbackups2-forge-1.20-1.0.23.jar",
+      "url": "https://edge.forgecdn.net/files/4834/403/ftbbackups2-forge-1.20-1.0.23.jar",
+      "required": true
+    },
+    {
+      "projectID": 556861,
+      "fileID": 5169765,
+      "fileName": "functionalstorage-1.20.1-1.2.10.jar",
+      "url": "https://edge.forgecdn.net/files/5169/765/functionalstorage-1.20.1-1.2.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 268387,
+      "fileID": 5228960,
+      "fileName": "ExtendedCrafting-1.20.1-6.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/5228/960/ExtendedCrafting-1.20.1-6.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 832870,
+      "fileID": 4920458,
+      "fileName": "kubejsbotanypots-1.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/4920/458/kubejsbotanypots-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 581495,
+      "fileID": 5299671,
+      "fileName": "oculus-mc1.20.1-1.7.0.jar",
+      "url": "https://edge.forgecdn.net/files/5299/671/oculus-mc1.20.1-1.7.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 996980,
+      "fileID": 5245376,
+      "fileName": "ad_astra_rocketed-forge-1.20.1-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/5245/376/ad_astra_rocketed-forge-1.20.1-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 398521,
+      "fileID": 5051242,
+      "fileName": "FarmersDelight-1.20.1-1.2.4.jar",
+      "url": "https://edge.forgecdn.net/files/5051/242/FarmersDelight-1.20.1-1.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 961856,
+      "fileID": 5107131,
+      "fileName": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5107/131/AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 250832,
+      "fileID": 4837768,
+      "fileName": "elevatorid-1.20.1-lex-1.9.jar",
+      "url": "https://edge.forgecdn.net/files/4837/768/elevatorid-1.20.1-lex-1.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 521480,
+      "fileID": 5305282,
+      "fileName": "skinlayers3d-forge-1.6.4-mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5305/282/skinlayers3d-forge-1.6.4-mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 661293,
+      "fileID": 5272975,
+      "fileName": "SmartBrainLib-forge-1.20.1-1.14.jar",
+      "url": "https://edge.forgecdn.net/files/5272/975/SmartBrainLib-forge-1.20.1-1.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 327048,
+      "fileID": 5242711,
+      "fileName": "IconExporter-1.20.1-1.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5242/711/IconExporter-1.20.1-1.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 929534,
+      "fileID": 5240485,
+      "fileName": "tetracelium-1.20.1-1.2.0.jar",
+      "url": "https://edge.forgecdn.net/files/5240/485/tetracelium-1.20.1-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 386134,
+      "fileID": 5005006,
+      "fileName": "ftb-ultimine-forge-2001.1.4.jar",
+      "url": "https://edge.forgecdn.net/files/5005/6/ftb-ultimine-forge-2001.1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 287342,
+      "fileID": 5151228,
+      "fileName": "titanium-1.20.1-3.8.27.jar",
+      "url": "https://edge.forgecdn.net/files/5151/228/titanium-1.20.1-3.8.27.jar",
+      "required": true
+    },
+    {
+      "projectID": 324717,
+      "fileID": 5072729,
+      "fileName": "Jade-1.20.1-forge-11.8.0.jar",
+      "url": "https://edge.forgecdn.net/files/5072/729/Jade-1.20.1-forge-11.8.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 1015339,
+      "fileID": 5326896,
+      "fileName": "disable_tools-1.20.1-1.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/5326/896/disable_tools-1.20.1-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 247007,
+      "fileID": 4987207,
+      "fileName": "CommonCapabilities-1.20.1-2.9.1.jar",
+      "url": "https://edge.forgecdn.net/files/4987/207/CommonCapabilities-1.20.1-2.9.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 365460,
+      "fileID": 4625518,
+      "fileName": "pamhc2trees-1.20-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/4625/518/pamhc2trees-1.20-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 250702,
+      "fileID": 5114330,
+      "fileName": "jecharacters-1.20.1-forge-4.5.9.jar",
+      "url": "https://edge.forgecdn.net/files/5114/330/jecharacters-1.20.1-forge-4.5.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 520110,
+      "fileID": 5138899,
+      "fileName": "Iceberg-1.20.1-forge-1.1.21.jar",
+      "url": "https://edge.forgecdn.net/files/5138/899/Iceberg-1.20.1-forge-1.1.21.jar",
+      "required": true
+    },
+    {
+      "projectID": 491794,
+      "fileID": 4712194,
+      "fileName": "ExplorersCompass-1.20.1-1.3.3-forge.jar",
+      "url": "https://edge.forgecdn.net/files/4712/194/ExplorersCompass-1.20.1-1.3.3-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 442354,
+      "fileID": 5035999,
+      "fileName": "notenoughcrashes-4.4.7+1.20.1-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5035/999/notenoughcrashes-4.4.7%2b1.20.1-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 457570,
+      "fileID": 5180900,
+      "fileName": "configured-forge-1.20.1-2.2.3.jar",
+      "url": "https://edge.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 268567,
+      "fileID": 5125669,
+      "fileName": "MekanismTools-1.20.1-10.4.6.20.jar",
+      "url": "https://edge.forgecdn.net/files/5125/669/MekanismTools-1.20.1-10.4.6.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 833926,
+      "fileID": 4920407,
+      "fileName": "kubejsarsnouveau-1.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/4920/407/kubejsarsnouveau-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 492574,
+      "fileID": 4580511,
+      "fileName": "MyServerIsCompatible-1.20-1.0.jar",
+      "url": "https://edge.forgecdn.net/files/4580/511/MyServerIsCompatible-1.20-1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 957920,
+      "fileID": 5226922,
+      "fileName": "Glodium-1.20-1.5-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5226/922/Glodium-1.20-1.5-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 228756,
+      "fileID": 4614852,
+      "fileName": "ironchest-1.20.1-14.4.4.jar",
+      "url": "https://edge.forgecdn.net/files/4614/852/ironchest-1.20.1-14.4.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 585406,
+      "fileID": 5227399,
+      "fileName": "probejs-6.0.1-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5227/399/probejs-6.0.1-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 399558,
+      "fileID": 4684054,
+      "fileName": "constructionwand-1.20.1-2.11.jar",
+      "url": "https://edge.forgecdn.net/files/4684/54/constructionwand-1.20.1-2.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 688367,
+      "fileID": 4719290,
+      "fileName": "merequester-forge-1.20.1-1.1.4.jar",
+      "url": "https://edge.forgecdn.net/files/4719/290/merequester-forge-1.20.1-1.1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 971089,
+      "fileID": 5222767,
+      "fileName": "chisel_chipped_integration-v1.1.0-1.20.1_beta.jar",
+      "url": "https://edge.forgecdn.net/files/5222/767/chisel_chipped_integration-v1.1.0-1.20.1_beta.jar",
+      "required": true
+    },
+    {
+      "projectID": 854213,
+      "fileID": 4811084,
+      "fileName": "colorfulhearts-forge-1.20.1-4.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/4811/84/colorfulhearts-forge-1.20.1-4.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 618511,
+      "fileID": 4948244,
+      "fileName": "kubejs_botania-1.4.0-forge.jar",
+      "url": "https://edge.forgecdn.net/files/4948/244/kubejs_botania-1.4.0-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 352491,
+      "fileID": 5229575,
+      "fileName": "ModernUI-Forge-1.20.1-3.10.1.4-universal.jar",
+      "url": "https://edge.forgecdn.net/files/5229/575/ModernUI-Forge-1.20.1-3.10.1.4-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 619320,
+      "fileID": 5296468,
+      "fileName": "sophisticatedstorage-1.20.1-0.10.21.793.jar",
+      "url": "https://edge.forgecdn.net/files/5296/468/sophisticatedstorage-1.20.1-0.10.21.793.jar",
+      "required": true
+    },
+    {
+      "projectID": 351441,
+      "fileID": 4613538,
+      "fileName": "PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+      "url": "https://edge.forgecdn.net/files/4613/538/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 633823,
+      "fileID": 5273070,
+      "fileName": "almostunified-forge-1.20.1-0.9.3.jar",
+      "url": "https://edge.forgecdn.net/files/5273/70/almostunified-forge-1.20.1-0.9.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 312353,
+      "fileID": 5308487,
+      "fileName": "artifacts-forge-9.5.3.jar",
+      "url": "https://edge.forgecdn.net/files/5308/487/artifacts-forge-9.5.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 242818,
+      "fileID": 5292543,
+      "fileName": "CodeChickenLib-1.20.1-4.4.0.509-universal.jar",
+      "url": "https://edge.forgecdn.net/files/5292/543/CodeChickenLib-1.20.1-4.4.0.509-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 314905,
+      "fileID": 4596742,
+      "fileName": "ftb-ranks-forge-2001.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/4596/742/ftb-ranks-forge-2001.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 231484,
+      "fileID": 5263527,
+      "fileName": "cookingforblockheads-forge-1.20.1-16.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/5263/527/cookingforblockheads-forge-1.20.1-16.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 309674,
+      "fileID": 4838266,
+      "fileName": "item-filters-forge-2001.1.0-build.59.jar",
+      "url": "https://edge.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar",
+      "required": true
+    },
+    {
+      "projectID": 580129,
+      "fileID": 4799757,
+      "fileName": "questsadditions-1.4.3a.jar",
+      "url": "https://edge.forgecdn.net/files/4799/757/questsadditions-1.4.3a.jar",
+      "required": true
+    },
+    {
+      "projectID": 454372,
+      "fileID": 5102258,
+      "fileName": "supermartijn642corelib-1.1.17-forge-mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5102/258/supermartijn642corelib-1.1.17-forge-mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 361385,
+      "fileID": 4687624,
+      "fileName": "pamhc2crops-1.20-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/4687/624/pamhc2crops-1.20-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 1013074,
+      "fileID": 5314557,
+      "fileName": "kubejs_naturesaura-1.20.1-forge-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/5314/557/kubejs_naturesaura-1.20.1-forge-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 610632,
+      "fileID": 4904185,
+      "fileName": "Applied-Botanics-forge-1.5.0.jar",
+      "url": "https://edge.forgecdn.net/files/4904/185/Applied-Botanics-forge-1.5.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 282001,
+      "fileID": 5293514,
+      "fileName": "cc-tweaked-1.20.1-forge-1.110.3.jar",
+      "url": "https://edge.forgecdn.net/files/5293/514/cc-tweaked-1.20.1-forge-1.110.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 535489,
+      "fileID": 4975922,
+      "fileName": "sound-physics-remastered-forge-1.20.1-1.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/4975/922/sound-physics-remastered-forge-1.20.1-1.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 931925,
+      "fileID": 5300312,
+      "fileName": "embeddiumplus-1.20.1-v1.2.8.jar",
+      "url": "https://edge.forgecdn.net/files/5300/312/embeddiumplus-1.20.1-v1.2.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 583345,
+      "fileID": 4925840,
+      "fileName": "JadeAddons-1.20.1-forge-5.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/4925/840/JadeAddons-1.20.1-forge-5.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 5098182,
+      "fileName": "Placebo-1.20.1-8.6.1.jar",
+      "url": "https://edge.forgecdn.net/files/5098/182/Placebo-1.20.1-8.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 254241,
+      "fileID": 5131447,
+      "fileName": "mob_grinding_utils-1.20.1-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5131/447/mob_grinding_utils-1.20.1-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 526754,
+      "fileID": 4926013,
+      "fileName": "BotanyPotsTiers-Forge-1.20.1-6.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/4926/13/BotanyPotsTiers-Forge-1.20.1-6.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 236307,
+      "fileID": 5297722,
+      "fileName": "IntegratedDynamics-1.20.1-1.22.0.jar",
+      "url": "https://edge.forgecdn.net/files/5297/722/IntegratedDynamics-1.20.1-1.22.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 841890,
+      "fileID": 5176879,
+      "fileName": "athena-forge-1.20.1-3.1.2.jar",
+      "url": "https://edge.forgecdn.net/files/5176/879/athena-forge-1.20.1-3.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 635427,
+      "fileID": 4680832,
+      "fileName": "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/4680/832/YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 268566,
+      "fileID": 5125668,
+      "fileName": "MekanismGenerators-1.20.1-10.4.6.20.jar",
+      "url": "https://edge.forgecdn.net/files/5125/668/MekanismGenerators-1.20.1-10.4.6.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 892005,
+      "fileID": 5297417,
+      "fileName": "ExtendedAE-1.20-1.1.4-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5297/417/ExtendedAE-1.20-1.1.4-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 5284533,
+      "fileName": "CreativeCore_FORGE_v2.11.27_mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5284/533/CreativeCore_FORGE_v2.11.27_mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 261924,
+      "fileID": 4749360,
+      "fileName": "farmingforblockheads-forge-1.20.1-14.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/4749/360/farmingforblockheads-forge-1.20.1-14.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 377897,
+      "fileID": 5304827,
+      "fileName": "productivebees-1.20.1-12.5.1.jar",
+      "url": "https://edge.forgecdn.net/files/5304/827/productivebees-1.20.1-12.5.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 413234,
+      "fileID": 4683662,
+      "fileName": "TravelAnchors-1.20.1-5.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/4683/662/TravelAnchors-1.20.1-5.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 351264,
+      "fileID": 4983659,
+      "fileName": "kotlinforforge-4.10.0-all.jar",
+      "url": "https://edge.forgecdn.net/files/4983/659/kotlinforforge-4.10.0-all.jar",
+      "required": true
+    },
+    {
+      "projectID": 1013772,
+      "fileID": 5324014,
+      "fileName": "bigger_ae2-1.20.1-1.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/5324/14/bigger_ae2-1.20.1-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 245174,
+      "fileID": 5292573,
+      "fileName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
+      "url": "https://edge.forgecdn.net/files/5292/573/EnderStorage-1.20.1-2.11.0.188-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 456956,
+      "fileID": 5270039,
+      "fileName": "Chipped-forge-1.20.1-3.0.6.jar",
+      "url": "https://edge.forgecdn.net/files/5270/39/Chipped-forge-1.20.1-3.0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 228525,
+      "fileID": 5250293,
+      "fileName": "Bookshelf-Forge-1.20.1-20.1.10.jar",
+      "url": "https://edge.forgecdn.net/files/5250/293/Bookshelf-Forge-1.20.1-20.1.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 398623,
+      "fileID": 4680891,
+      "fileName": "flatbedrock-forge-3.0.1-build.18+mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/4680/891/flatbedrock-forge-3.0.1-build.18+mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 401955,
+      "fileID": 5190105,
+      "fileName": "ars_nouveau-1.20.1-4.10.0-all.jar",
+      "url": "https://edge.forgecdn.net/files/5190/105/ars_nouveau-1.20.1-4.10.0-all.jar",
+      "required": true
+    },
+    {
+      "projectID": 412525,
+      "fileID": 5207625,
+      "fileName": "LibX-1.20.1-5.0.14.jar",
+      "url": "https://edge.forgecdn.net/files/5207/625/LibX-1.20.1-5.0.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 394535,
+      "fileID": 4712179,
+      "fileName": "trashcans-1.0.18b-forge-mc1.20.jar",
+      "url": "https://edge.forgecdn.net/files/4712/179/trashcans-1.0.18b-forge-mc1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 404465,
+      "fileID": 5282375,
+      "fileName": "ftb-library-forge-2001.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/5282/375/ftb-library-forge-2001.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 538392,
+      "fileID": 5306228,
+      "fileName": "modonomicon-1.20.1-forge-1.70.0.jar",
+      "url": "https://edge.forgecdn.net/files/5306/228/modonomicon-1.20.1-forge-1.70.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 321117,
+      "fileID": 5310219,
+      "fileName": "travelersbackpack-forge-1.20.1-9.1.14.jar",
+      "url": "https://edge.forgecdn.net/files/5310/219/travelersbackpack-forge-1.20.1-9.1.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 282947,
+      "fileID": 4786762,
+      "fileName": "baubley-heart-canisters-1.20.1-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/4786/762/baubley-heart-canisters-1.20.1-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 240633,
+      "fileID": 4655091,
+      "fileName": "inventorysorter-1.20.1-23.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/4655/91/inventorysorter-1.20.1-23.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 322861,
+      "fileID": 5182936,
+      "fileName": "PackagedExCrafting-1.20.1-3.4.0.8.jar",
+      "url": "https://edge.forgecdn.net/files/5182/936/PackagedExCrafting-1.20.1-3.4.0.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 955720,
+      "fileID": 4999728,
+      "fileName": "kubejs_extended_crafting-2001.5.jar",
+      "url": "https://edge.forgecdn.net/files/4999/728/kubejs_extended_crafting-2001.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 410811,
+      "fileID": 4896152,
+      "fileName": "ftb-essentials-forge-2001.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/4896/152/ftb-essentials-forge-2001.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 317780,
+      "fileID": 5262424,
+      "fileName": "XaerosWorldMap_1.38.4_Forge_1.20.jar",
+      "url": "https://edge.forgecdn.net/files/5262/424/XaerosWorldMap_1.38.4_Forge_1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 402231,
+      "fileID": 5147171,
+      "fileName": "pamhc2foodextended-1.20.4-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/5147/171/pamhc2foodextended-1.20.4-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 441114,
+      "fileID": 5246305,
+      "fileName": "NekosEnchantedBooks-1.20.1-1.8.0.jar",
+      "url": "https://edge.forgecdn.net/files/5246/305/NekosEnchantedBooks-1.20.1-1.8.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 422301,
+      "fileID": 5296475,
+      "fileName": "sophisticatedbackpacks-1.20.1-3.20.5.1044.jar",
+      "url": "https://edge.forgecdn.net/files/5296/475/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar",
+      "required": true
+    },
+    {
+      "projectID": 370890,
+      "fileID": 4803995,
+      "fileName": "JAVD-Forge-5.0.1+mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/4803/995/JAVD-Forge-5.0.1+mc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 289712,
+      "fileID": 5236744,
+      "fileName": "tetra-1.20.1-6.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5236/744/tetra-1.20.1-6.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 419699,
+      "fileID": 5137938,
+      "fileName": "architectury-9.2.14-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 256717,
+      "fileID": 5278538,
+      "fileName": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/5278/538/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 5262365,
+      "fileName": "Xaeros_Minimap_24.1.1_Forge_1.20.jar",
+      "url": "https://edge.forgecdn.net/files/5262/365/Xaeros_Minimap_24.1.1_Forge_1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 635042,
+      "fileID": 5116766,
+      "fileName": "ad_astra-forge-1.20.1-1.15.18.jar",
+      "url": "https://edge.forgecdn.net/files/5116/766/ad_astra-forge-1.20.1-1.15.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 525693,
+      "fileID": 5154371,
+      "fileName": "occultism_kubejs-1.20.1-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/5154/371/occultism_kubejs-1.20.1-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 348521,
+      "fileID": 4973441,
+      "fileName": "cloth-config-11.1.118-forge.jar",
+      "url": "https://edge.forgecdn.net/files/4973/441/cloth-config-11.1.118-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 351914,
+      "fileID": 4824501,
+      "fileName": "mutil-1.20.1-6.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/4824/501/mutil-1.20.1-6.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 924640,
+      "fileID": 5190817,
+      "fileName": "ApotheoticAdditionsV2.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/5190/817/ApotheoticAdditionsV2.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 306935,
+      "fileID": 5275525,
+      "fileName": "Super Factory Manager-1.20.1-4.15.1.jar",
+      "url": "https://edge.forgecdn.net/files/5275/525/Super%20Factory%20Manager-1.20.1-4.15.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 248787,
+      "fileID": 4770828,
+      "fileName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "url": "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 618298,
+      "fileID": 5296318,
+      "fileName": "sophisticatedcore-1.20.1-0.6.21.609.jar",
+      "url": "https://edge.forgecdn.net/files/5296/318/sophisticatedcore-1.20.1-0.6.21.609.jar",
+      "required": true
+    },
+    {
+      "projectID": 438332,
+      "fileID": 4715408,
+      "fileName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "url": "https://edge.forgecdn.net/files/4715/408/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 827040,
+      "fileID": 5177773,
+      "fileName": "adtetra-2.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/5177/773/adtetra-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 407206,
+      "fileID": 5186927,
+      "fileName": "chat_heads-0.10.32-forge-1.20.jar",
+      "url": "https://edge.forgecdn.net/files/5186/927/chat_heads-0.10.32-forge-1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 227639,
+      "fileID": 5071019,
+      "fileName": "twilightforest-1.20.1-4.3.2145-universal.jar",
+      "url": "https://edge.forgecdn.net/files/5071/19/twilightforest-1.20.1-4.3.2145-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 891429,
+      "fileID": 5228248,
+      "fileName": "world_preview-forge-1.20.1-1.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/5228/248/world_preview-forge-1.20.1-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 597522,
+      "fileID": 4853031,
+      "fileName": "eccentrictome-1.20.1-1.10.2.jar",
+      "url": "https://edge.forgecdn.net/files/4853/31/eccentrictome-1.20.1-1.10.2.jar",
+      "required": true
+    }
+  ]
+}

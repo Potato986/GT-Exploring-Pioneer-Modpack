@@ -36,6 +36,7 @@
 		}
 		{
 			dependencies: ["6D5269B19694E694"]
+			description: ["四处逛一逛，挖一些砂砾"]
 			id: "41DBB53483642BFD"
 			shape: "rsquare"
 			tasks: [{
